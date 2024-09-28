@@ -1,0 +1,383 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "91ed694b-8496-4c61-9a9b-ca23d22554b9:string:NUS-A0131812U-M031000-20240630",
+    "$template": {
+      "name": "7c0b1608-4da2-4065-b097-c7fa9dc9998a:string:NUS-K1-2019",
+      "type": "b01922ea-e89b-4ded-88f8-5033a760cb99:string:EMBEDDED_RENDERER",
+      "url": "4a0e599b-e0d1-4f21-a9f5-c6c89560dc44:string:https://opencerts.nus.edu.sg"
+    },
+    "issuedOn": "c550f93b-35de-42eb-aba0-d906b0fd73e9:string:2024-07-01T11:17:17+08:00",
+    "graduationDate": "1290d502-1f7c-49d0-8bcd-87a37fd48c9e:string:2024-06-30T00:00:00+08:00",
+    "attainmentDate": "b6ec7128-6ba8-4673-94a8-f254a041effa:string:2024-06-30T00:00:00+08:00",
+    "name": "33c36957-34c1-4746-aebc-9f9f5dfba1da:string:Master of Computing",
+    "qualificationLevel": [
+      {
+        "frameworkName": "ec26caba-12e0-4a60-94fa-a2b771a2efcc:string:singapore/ssec-eqa",
+        "frameworkVersion": "5c7538de-51bf-4f1b-bed0-f550f6c9418b:string:2015",
+        "code": "6d77ecd0-c3ba-4e1f-966e-1cc60ec1c4ff:string:91",
+        "description": "b2ea06d3-101a-4ef7-9080-f69860a7cb35:string:Master's or equivalent"
+      }
+    ],
+    "fieldOfStudy": [
+      {
+        "frameworkName": "d04796c8-3dd4-473a-ab3e-1785ce593094:string:singapore/ssec-fos",
+        "frameworkVersion": "87f8654b-92cb-4438-95f3-0e75cd05d742:string:2015",
+        "code": "574ab28e-f98d-466b-a62b-0643da8c4f58:string:0919",
+        "description": "bf24dc88-dd20-4ed6-aa45-f75f8c9e7a8c:string:Information Technology n.e.c."
+      }
+    ],
+    "issuers": [
+      {
+        "id": "ecc1374b-d1de-466a-bec5-0f7de1a12dd3:string:did:ethr:0x253b74046d0d0d9efe214212f7900ae8b4f78f39",
+        "issuerName": "e2c95c52-ea25-48a8-b462-aa399296efc2:string:National University of Singapore",
+        "name": "b72bf79c-a9ff-476f-946c-5fe729e0f448:string:National University of Singapore",
+        "revocation": {
+          "type": "6c857d70-e06c-491b-9b71-b6a59ab933f8:string:REVOCATION_STORE",
+          "location": "1104772f-86ae-4342-b36c-6de5a9cdaa32:string:0x66671988ee465b5c23ef18838b32b1666d0ec8d6"
+        },
+        "identityProof": {
+          "type": "9c835c10-5a19-4230-b49c-4344e16f0fb5:string:DNS-DID",
+          "key": "a4eab2af-ced9-4d97-9020-2668afd4497d:string:did:ethr:0x253b74046d0d0d9efe214212f7900ae8b4f78f39#controller",
+          "location": "a7e7c02d-70ea-4c88-be4b-ef2f730da454:string:nus.edu.sg"
+        },
+        "url": "85a1a350-65b2-4251-a15a-26a369d12c75:string:http://nus.edu.sg"
+      }
+    ],
+    "recipient": {
+      "name": "5fd35d03-ec80-49fd-9311-413b40814f47:string:KIU YAN YU",
+      "studentId": "495d975f-8757-495c-b2a7-fc8902009d6e:string:A0131812U",
+      "dateOfBirth": "0c93b707-bdf4-4b89-89f1-d3fc9a5e126f:string:1993-01-19"
+    },
+    "transcript": [
+      {
+        "name": "4bdf4cde-c518-4acc-ad36-5ea6b2df049b:string:Software Development Fundamentals",
+        "courseCode": "9c03aa17-e99d-41b9-b89a-979d21c9705a:string:IT5001",
+        "grade": "d9b87327-b0d3-4b88-8b83-61480565906d:string:A",
+        "courseCredit": "6070cca8-a370-4974-83ad-178f671a9125:number:4",
+        "gradingBasis": "ca04173a-9569-492b-b0b9-580869a20d7e:string:GRD",
+        "includeInGPA": "c283bf9a-d0a6-46b7-a537-932a221b85ef:boolean:true",
+        "reportNo": "ff2ffec6-a44a-48ad-b190-265f3e5be6af:number:1",
+        "semester": "be9f8fb6-e678-4137-977b-9e0923d3cca3:string:2210"
+      },
+      {
+        "name": "6f468f40-b949-4411-bb73-1dafdb6c4b77:string:Computer Systems and Applications",
+        "courseCode": "6364ef43-d386-42d7-9f02-e9a6f2cb316d:string:IT5002",
+        "grade": "f714967c-d3f5-460a-9b03-516ae77cc61b:string:A+",
+        "courseCredit": "ad558769-c4db-441f-91b6-c8ae947d268d:number:4",
+        "gradingBasis": "0b8ec336-492f-45e5-8d16-5796e4614380:string:GRD",
+        "includeInGPA": "5069797c-9f86-4e66-8b0e-0dbc53818a68:boolean:true",
+        "reportNo": "bb2792c3-9494-46c8-866d-4c74d08e3423:number:1",
+        "semester": "e18ddfbd-7f0a-4ac7-af20-4029e4313865:string:2210"
+      },
+      {
+        "name": "ded98e43-a726-43a4-90b6-5d83798e6709:string:Data Structures and Algorithms",
+        "courseCode": "0444d8f5-051d-42d2-b19b-db16ee730997:string:IT5003",
+        "grade": "8d71ec36-c069-48f0-bf18-c8349ddd716b:string:A",
+        "courseCredit": "3aba6258-f108-47aa-a077-ba085ef5dde1:number:4",
+        "gradingBasis": "e56cf813-2de8-432d-aab9-5bb1a52b1be9:string:GRD",
+        "includeInGPA": "0ca09933-1ced-4896-b681-a8c282687cd1:boolean:true",
+        "reportNo": "463ade57-e9c8-4049-958f-634de966000c:number:1",
+        "semester": "18568021-0668-4c8c-9a87-38789865e95e:string:2210"
+      },
+      {
+        "name": "c4a6aa71-9910-4c6a-9836-ebfc4df22e63:string:Enterprise Systems Architecture Fundamentals",
+        "courseCode": "62a0aa3b-072d-4f5c-9e9e-0cf8b4e95b1f:string:IT5004",
+        "grade": "64db8133-173a-43ed-b6c0-eb26597366d7:string:A+",
+        "courseCredit": "4738ff27-dc55-4a2f-a734-763c79bc6b42:number:4",
+        "gradingBasis": "c27a4b74-c533-4649-879c-f28e8d9ee281:string:GRD",
+        "includeInGPA": "a79d11cb-5864-4871-9bb3-3776ae53aabc:boolean:true",
+        "reportNo": "b4be9955-a450-4f33-bc52-87acdd6f9b66:number:1",
+        "semester": "609799a9-1df3-49f4-af40-532188329f4b:string:2210"
+      },
+      {
+        "name": "c71582fd-7955-48b2-bebf-2f0880df054a:string:Artificial Intelligence",
+        "courseCode": "0d3f3ebf-5dca-48a4-bb07-86380422d853:string:IT5005",
+        "grade": "a5c144bb-c8fa-44e1-816c-3b86c305216f:string:A",
+        "courseCredit": "3b6169f1-be3d-4907-b488-488d906ac2ac:number:4",
+        "gradingBasis": "b9433e25-8cf5-45cf-a24c-42dd405c064d:string:GRD",
+        "includeInGPA": "2d8a4753-e391-42b1-be23-dc6366434268:boolean:true",
+        "reportNo": "1bdd7301-2c18-4890-8dc5-d59ecf382e3c:number:1",
+        "semester": "7dab839b-db90-4a93-b6d4-0d9468c474ce:string:2220"
+      },
+      {
+        "name": "3fd5b787-3978-4bf9-8ec8-489a6dab059a:string:Fundamentals of Data Analytics",
+        "courseCode": "11f86f99-0d6e-4b13-a82a-c553685490b3:string:IT5006",
+        "grade": "fb76183c-12db-4b35-894b-707787ab88e9:string:A+",
+        "courseCredit": "bebb2bba-cacb-41de-9308-9da2aa5a337d:number:4",
+        "gradingBasis": "2841a18f-20a3-43e3-a293-1bd8652837bf:string:GRD",
+        "includeInGPA": "21b84a2b-31b1-4a91-9ad5-96569deb6d92:boolean:true",
+        "reportNo": "3838e054-df6d-4858-bd69-0c069485816c:number:1",
+        "semester": "69bd70a5-1aef-4b24-8202-5510e69a32f1:string:2220"
+      },
+      {
+        "name": "d0f51ced-528a-461e-8947-74a23e2228cc:string:Typed Functional Programming in Practice",
+        "courseCode": "37d0c9c6-1da0-408c-8d97-7155be5eec05:string:IT5100A",
+        "grade": "b1633861-fb17-4a0a-a942-3e3829622fd1:string:A+",
+        "courseCredit": "fbd68363-c000-44c4-969b-32b3a92cf2af:number:2",
+        "gradingBasis": "b92de4ef-c724-4ee0-9573-81875691ab68:string:GRD",
+        "includeInGPA": "7226e76f-ce03-4551-b098-052bee013aa4:boolean:true",
+        "reportNo": "1cc59916-04ea-40fb-bd7e-9bf0316624d2:number:1",
+        "semester": "3b3fb718-b13a-4aab-8ef1-31cce6b3a8ea:string:2220"
+      },
+      {
+        "name": "2b7af241-74df-4a42-94fb-bae6b5fef1e8:string:High-Throughput Stream Programming",
+        "courseCode": "b8a00b82-1c1b-427b-8509-441a2e0a9e02:string:IT5100B",
+        "grade": "1a87d935-06ad-4e0a-aa35-9e57030ee8dd:string:A+",
+        "courseCredit": "bb8cd79d-a80b-4705-a27b-50c6b3c616d8:number:2",
+        "gradingBasis": "88c76744-eb05-4813-8964-3c8a9b4a7527:string:GRD",
+        "includeInGPA": "961eb0c1-4832-4665-8f65-94ccf75e306a:boolean:true",
+        "reportNo": "abf65fee-c156-4a9c-9fec-2ef1454e0e9a:number:1",
+        "semester": "581774ec-44c4-46e9-b46b-e1cad02d757a:string:2220"
+      },
+      {
+        "name": "368e876a-81e9-4322-8638-cf09bb9598f6:string:Computing Capstone Project (with Internship)",
+        "courseCode": "9ebcc1bd-4aa3-475a-aaf1-ee6fd24cba39:string:CP5106",
+        "grade": "c2a4934a-f2ff-46a3-8ab6-1ba4ed8f00b5:string:IP",
+        "courseCredit": "8ffcec29-2703-4336-8d30-9ae28adfc7e0:number:8",
+        "gradingBasis": "012508ac-494f-4f09-91b3-ffa9461db200:string:GRD",
+        "includeInGPA": "d55c3aa8-c0ea-45d3-9dc8-65958823f28b:boolean:true",
+        "reportNo": "4181ce77-404e-46c7-bfee-0d91e438975f:number:1",
+        "semester": "ab414f65-bad6-44ac-88e8-bee05e165360:string:2230"
+      },
+      {
+        "name": "82aa93e7-42c3-4e26-97ca-ab854c12412c:string:Computing Capstone Project (with Internship)",
+        "courseCode": "284f6350-06ab-4dcc-b860-bb51dd715d8f:string:CP5106",
+        "grade": "ecede726-0ae3-400f-a84f-0a4f7a0fb33c:string:A+",
+        "courseCredit": "5922c029-e640-4c32-a125-72191a989732:number:8",
+        "gradingBasis": "4dfbc40e-3002-4ae7-8df0-ff418c8d6a28:string:GRD",
+        "includeInGPA": "8e72a344-b6b5-49ba-b409-30f78887101e:boolean:true",
+        "reportNo": "caeb9f7e-3697-40f3-be30-a545f00fae70:number:1",
+        "semester": "0572d9c5-db25-48eb-bd30-9bacea8a41a6:string:2240"
+      },
+      {
+        "name": "d704f7bd-5fad-4197-8aa1-cfa41c7f0bb5:string:Distributed Systems",
+        "courseCode": "51cd2408-7789-4b56-9660-7f6320b94411:string:CS5223",
+        "grade": "f187c433-dee1-4b30-9a76-1e47edae5438:string:A",
+        "courseCredit": "fcff075d-5a27-4625-a80b-360cfd991805:number:4",
+        "gradingBasis": "9c471237-5e54-4ca4-98db-20f28ed2cb96:string:GRD",
+        "includeInGPA": "c70c2935-913d-4d5c-8e2e-fd9b00b5cfb5:boolean:true",
+        "reportNo": "1153823c-ecd1-4635-a10b-196cfcd58deb:number:1",
+        "semester": "62a0bfc1-b631-40ce-8398-9956144fdbdb:string:2310"
+      },
+      {
+        "name": "a61c6e4e-b468-4f65-8eb9-cd0ab459f8be:string:Industry Readiness: Networking Concepts for Developers",
+        "courseCode": "4caa46ea-c163-4323-bab5-68e43cacc357:string:IT5100D",
+        "grade": "d59e9da7-0f74-4deb-b7bb-6965e58eb7cb:string:A+",
+        "courseCredit": "e974df4f-a011-42eb-9d48-be3e69f9d923:number:2",
+        "gradingBasis": "975ba026-132d-4002-a968-bb01e92ecc1e:string:GRD",
+        "includeInGPA": "32905481-c499-4f3d-a91f-d2b578f2f430:boolean:true",
+        "reportNo": "cd804244-9be1-432e-838c-bc44e5a52959:number:1",
+        "semester": "5ca91b51-78cf-470f-ad41-90ed47554760:string:2310"
+      },
+      {
+        "name": "037b2c87-50d4-4ce1-b456-aca718b2b471:string:Industry Readiness: Security Best Practices",
+        "courseCode": "c6429d5e-acb6-49fb-bcd7-83ab23180a6f:string:IT5100E",
+        "grade": "67957b37-5abe-4a90-bc0e-d787948b2c45:string:A+",
+        "courseCredit": "969fec4a-61c2-4b5e-bab6-76d63147f8ab:number:2",
+        "gradingBasis": "28277ca6-05b6-47e7-8c8e-76ea7eba3398:string:GRD",
+        "includeInGPA": "a6cfa660-0b15-4f8e-97fb-f68512fcb0fb:boolean:true",
+        "reportNo": "d02b994e-1d02-48ee-a6df-42876da67d71:number:1",
+        "semester": "38929ec5-ca71-416c-81ea-ce79b2701be9:string:2310"
+      },
+      {
+        "name": "d1bfe27b-ef70-449d-85d2-9406d9cf924e:string:Programming Language Implementation",
+        "courseCode": "42341a89-2c19-4ddb-8c5b-7b2f0bf0026a:string:CS4215",
+        "grade": "52158305-fdee-4f68-a1c4-cda09f69a01d:string:A-",
+        "courseCredit": "f4efba90-5dac-4752-ab6b-36c1e7fad73f:number:4",
+        "gradingBasis": "107c9c2b-903d-4b27-83f3-494c32ac6392:string:GRD",
+        "includeInGPA": "7c28f4ea-91ba-4e2f-8168-c4da870922f8:boolean:true",
+        "reportNo": "6142b5dc-7333-4d5f-bda2-ba75aa035dbd:number:1",
+        "semester": "44630878-5b14-4fd3-b9ed-dd2750d67b9a:string:2320"
+      },
+      {
+        "name": "2453c171-fef9-4cd2-bba1-aa069bb57fc9:string:Text Mining",
+        "courseCode": "c352389a-63dd-48d8-8ef7-a2a434bce007:string:CS5246",
+        "grade": "37a029ad-236c-48bb-bec9-a754b2fe4049:string:A+",
+        "courseCredit": "8eeb0e96-adee-4247-93de-1f4e11033596:number:4",
+        "gradingBasis": "1247d57c-98fe-4f8b-b172-25f69daff1ba:string:GRD",
+        "includeInGPA": "887c041e-158d-4163-86e5-30c646a8062f:boolean:true",
+        "reportNo": "3ba9368e-0269-4352-8eca-e788d7a4b4a4:number:1",
+        "semester": "6788301a-b772-4d4d-b0d9-63eaa94bcb7e:string:2320"
+      }
+    ],
+    "additionalData": {
+      "degreeScroll": [
+        {
+          "degreeTitle": "f2a819f5-4f33-4e3d-a634-664a38c68939:string:Master of Computing",
+          "dateConferred": "b0e48bda-3052-4c70-af9a-e7437a54bdd2:string:2024-06-30",
+          "degreeCode": "7ff538f9-6039-46c3-b872-7074ab5e6c18:string:M031000",
+          "type": "b148b917-19c2-4433-8ac0-92e054de0a03:string:K1A (GENERAL)"
+        }
+      ],
+      "images": {
+        "PRESIDENT": {
+          "data": "fd211da4-81c9-4f0d-bf55-588f850f7de3:string:data:image/png;base64,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",
+          "width": "8881402b-fcbb-4843-8ce3-53d305cbdd58:number:2.5",
+          "height": "055cee99-79ce-4f63-96cf-a19dafd5fa7e:number:1.48",
+          "unit": "de28f867-46c1-40f6-8c60-951f0653cd85:string:CM"
+        },
+        "TRUSTEES": {
+          "data": "e650e62d-496b-4ea9-856f-f9a2290f4662:string:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAC6oAAAKHAQMAAAF/M/bSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAAAAAKVnuc8AAAACdFJOU/8A5bcwSgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAWihJREFUeNrtfc2u5EayXnIoqARDUM14NYuGKMAvMN5pIYgybGDuwg8hwC+gwd1oIaiy3Yv2ym145d08iin04La98byAAWffXszSPJhNji9Nmvn/F/lDMutUnfZJCOpz6kQFP36MjIyMjEyiZVOb7lZ+ukSFHiB5Wk/+PSgfk54uoPwYl/8FkicxebpVvg/lVwYGV+qD/mnsX0LyWH/2R/dy4wWU/0x/1rny75dXgfz7ZdY3MndCq5FvIfnfePKduRNIfvqXWr5n/6da/i0g/2Ghf9Afcfl/Oqvf3y3/IpB/a8sL5EZ+/neA/KiNUBrea/X7a0D+1fLeyC+u/BtQ/oOWl4b31sj/60C+Xd5qA3jw5M/rHfvyp+WdL69/70D5N/rv751/QPn5tJy1/AfnMuxxQ/KdlpfAVX9bH3cgP/1+Tsm/CeTPc/8X9ZHURpPy00VfVD4o5V8mQJ6+oYG88nfrv5C8ualTXv7hzbhNvjPy8zmQ73z5991DIC+6Gb/vQP7Dyr666FQg/26j/D/077Q8fePJL6H8f7TluxL511r+Qf01If9l/0Z4zYVxJX/o4vIv+k5/+CEvP39zMfLvSuR/7vWH/6B+kA547QfdK1d++smS/4/qPpEwiLVfvkAXR57+9NMlkCdIfLLKI9S58nR9iFJs5Ur8iz+x5E+O/GjJz9+KH+bmS2EYD/93aebGkX9PqX6cSn46dVL+b2uPwI78B/qg5aefxQ9j14mOucqfF3Kx5d9a8lTKkwuT/ycu361jqi3/7uGDkZc//LJ0aw96kPJTZ8u/seQfZD98peX/usrLTvdnIX9+eKflP0wX7jnPSyccHZcXToCijst3q7zq3m9F+LICkB5SyPN7J+jE5Of+/Rst/3q6sEhi9WpS/v0HJv9WyLdMfuo/nFf5if/5zXTBFz68r/LMZ7z/i5b/sLxk8vSy2vx0EQ6zmy6fXYRVCvkHLv9ByD9w+YXL84hhXuU/73mA0H/gqIX8eyH/nsmPq39YJvEMp3766UUn5B94YLJyoeTfr2wg9s+f+vUiA5Onl+nHb88ML5NngcPDn5k8Hz3Gid/vh+VPl1UesycwLtPvLmfG3yo/o39y5b/jfL5jqunySb/IQGgl+w2X/90fmO9m8twryef1msVudOYdZcXRMHlG8MP0uzUoGv/I5RFv3B7Oy39bP5i4/IqjZWRzgulPLQ+cOmZnrLVMfh1gMbsX3lHO7L8P7DMmv353DSd518arePOSy/fLGgA+cMMXsRi3VspCopOwjPWz//PP/9ObFfcqv36w+peHkcnS3pKf/hX7Zbb8+div8qsdrDf4QOZuOIl+p+RV3KZc66pulR+5tT68XboV46LlH1iU4MlPjM/3Sv5zRoCWf2/8ppafz6v8W87Kw+vls9Mguh0zBiuANvILe76vuaLxvKBehJLrA3eDGDP+vl7lhc71sWDlZP7MrvgGkn81ITkeEv4U9N9f207f4PllQlj5p+V/W39/NVnyppFVXqDwphcDAqdL4zdIzivee4rgeR99EZkP0hb8ePo8Nn8E4S/z5xvnm/9zozy9W3kaF/pwC/n4/NdMNYrk6QWUJxvlf4nJj5dXgfx6Ry9dqQ9J+fe2fCc/UfILKK9DljmYL7cAHn/+qyMSdz6r5f35r45IVvl/Eci/XSZv/mvm129nSN7Mf4VP/z9a/vX8e0B+1ARSb74Myb+y5RdX/s0Uyr9mYYhs0pD0fPk8vQPkg/mvlu/mUB6Y/2ojc1w7VfPT1/581pJ/DcgH81/1uzvflPJnHg06it8n5Nf5rJF/VyTf+/JqPj6B8lPvz2dVf3bnm1TOZ4H5spH/YyDfWfPfcyDf+fIPkPwlJf+gQc6ePAXkP3TvA3kVILvzLyH/j8B8NiX/D/1W+XA+m5Jn819F8t/C+W8fyr/RSh48+VH/ZORfWPLvS+St+eyH3pV/COWd+e8/5OUnZ/5bIA/Nf1XCksmfXHn643TRSsL58vw18uSpJf+lni+LH1b5r8x8mcs/2PNZPV/+tZovz9Z8WcobkleuxL/Nt1L+b3OjI2kh/+HBmv/+JOTpF3q+vHqnl47824f3xlykPPmyExb4/m9rjyCOPJ//KnOUdjn8zObLf2UXXwc0nf3l8q/X4FyZr5r/vpx7FrWv8n9lk4Helj9b89n38ocT92B/lfIy2v1fQr778FrLr/Nl5mln7fE+fGC3dhbKOyY/2/Lv1HxZy/+FyfMHQNCZmvmvkH8t0v304spzpzegE9Xz3+X/8j+f1/nywoIMNZ8V8tzJv1taLs9yOFQ4wFnOl83898OfLfkPVM1/qZ7//vzbPpTno81bIS/nv0TOf3/6phNTng/8LoW8nF+/otb8l8sv63yZ5w8Yr8zMPrxZlDyh/H7fLv+Nz3+Z/MMy/fDzWcrPzfq8/srlxXx54Hy+Xv7D6qbmz5n8ezajfCPmv++nr/5+1cDnvzy8GVHP5N8w+Yf5xWXR82U+n32Yfmi5/9Lz5YbbQ8fnsxPvKCc2Fr8T882R/thyzXq+fGLys5CnP/XC+Z+1/Did9HyZT6+5fjX/ZXHV5MyX3zNC5fjyt3/2b7p1vkz5/FfMl3u1KsLl/7ZQnsefLH9OLpTPf1c1D+/n3syXV+tbmVVewXgTxg8R8m/njhEg7ETIqxDLZOuY/C+8N6xd4IXyM+/E/FcEorb8zPrLK/7B2gV+e8ZnI28FSUaePV8xX/7Hbp0vyzH3z0z+NSC/rPYjx9t/7EwS7w2DcjbyJn54TZHs+qQ3Yfj69/NsDYr/Vf/0lsbmy9QaJEz7hUbmy/grcL5MfkTSlZbNl8ffbpsv0882zpc/2zjf/C8b5Tc28qyetTel6sllh/b5VKp+2KN+KlaPN+tex39arH7701idxFiqfr6uerpd/bBBPWlSmsDkIO4Wklc/c8c0pNVDatbwdyhVj0P1s3GIE3Bx9rRwqfomrR5IhbI7wuesen7jU9uC31dXQqEeun70SV497xr0HKq3+wzAwrhBPela8PuqDcCfu2X+vMuq51qGPvw+sb8bPpq1V81fF6rHgO9znBzoA6cC9eTM5liQ+ui11Ce0QP3AYtAToN5JU5IgSMFsdppXj1lIfAbUO3SPHXD1acyrZ/NZ0k2Bic3Ow6Zn6Opjn1M/s5nzcAnVu34m8Dr86pER1FI/MfXYKiDSfzgH2pwPToXqL+y7oXr3k0D9VKaepSFWJKF677H5/Yo/jGHJqR/XOJdC6j1TxPvUk+840NAGcuq7IvXDwO0rVI9dXv1uy7l7mVX/8iX/aqjeG0H8p8i/kFffvORSo28Ds6/euz4pU8+GqQYwMb+kc4TUtzn186nlNh2o9wMf37T4F7Lq6Rct75+BDYwZ9UOZ+i9P3IQD9X5ctU89+fbEaQ3UD95j810m/0JW/fDTmT+lYEns5Sv3d9+lsm4WmT3Y6tevsfsMTMwPfPapb6iY+ntYuUV5H+xQP7erevYQA3/7xSmt/mWJ+uk89tyV++qZRR1XT1f1nFVf/fitrx65HzQl6see9MzkAkHyk/fJhFwnJNSPqEmpJxdyYa41UP/Ss5QZITdKbrl6jIDY2agf+AXMio35tqeeIFUZYqv/hKX0LnH1zXqBAVA/nzz1CJ3GJlCP0OcYgK/Ur0aDuQX7nWY6uz5mRGuEjlz1H8SsArVR9avWlxyHr37sXfW44UhMW399JybDI4qqX3W85E/VV08ujvoZdas+e7hdf3218Pq+GfUx9esMoRVzK8/demHbKr+iGIQe7j/YSq20t3D2qdSveFpRkOWpb9zBbzgzVfKjVqo/S/VjG1P/cr1J/iVP/cR1aXOaRSQn1feeentUXjtfr9WvBM4nPiZ7A/XakddPdFTMZs1MvYVhPs2d6owmIpp54lypX4O/6cQfmKee8LiKKkNnmQkvDl07hlZvYhSeme+V+hXOdObmNgYh2dhbfVu4DeaclOB0ttRbC2rz3619QX5xvex05hCZYzB2xwxuVa+rnti/qypmvQrpdKK9Um8mwOz+Vkqk+kH7dabeUDiJdQUkYc2y49nq5xO9KPWTo37W6leQ9BuhXk5TpNSZl9K1Mhs0KfWnRdk+88VGvVk9PFnoGarx67NUT416pmPsx7PMQfObl1QrB2arNzOXFcisuecgf+gkTcSo566kGzpZ1Etkx1u1zcqBrQa96MJ2U0iD1gembILZMfn+ItXj3+kCWz6n/HJ9oMKJiVWrjk/BPlfFeO0vRr0Bhi27ZxyQ77j6tfs2utdwyimTE0w3EsuqfvwCdUJny8ZyeSsD+vRfLqJT8TJpoZ79Tz7klwttda9hZr4+6ZO0E0EtM/h18OnV8NFY8QVBpnVKKWdWpuherui0em7u3M/yG5qN6a48jVI9TyBJ9ZOl/qTUc3uSeaB1rOhVkCp9wV8W6ekmZbprx2uY6xe3aIcvCn4jAmuuXuSJ5INaIaveYflv/pH4nEXEhK3jyQWaEZ6d8NV6rp4/NyywtCtTK8qJF8p2nvpO0Me+5g1qrwL1i3603OrkGlO79qBV/WpX7WC7bzPUMKCjP+4B6hkdTL3oM8LRrH1wHRzaST8cdatavRiR/VEbUM96OlMv8ohyXDmxu2jEE+o99dYDOOfVT7JbCXfYSPXsMmLJ1R6Y+fPjlgPnnQD1zKyZeuHMxTrk/Am7DA5CCrFIzmiH1z6gKkLMfY7Do4iuwyy4mNAxSThB/hb4jDCP6YbrwhhDAn5ReCLLg1BbRQkaUOeoT637rD0Rd8XqV11MvfNREhwFo+xoQ2eCRtfGTin5GaFTufbVQjYu6tEt4Ffp6y5JvnzaC6rDs/pn9bdV/8dS9WSP9vlcqr7mUvzjq8d3qJ6Wq9+s+69b1O8oJFhiK/111F/K1c+76hRIsfrmquqn66LfUcSBN6gfm6uqz9SIQOuyaxg55NULr5euEaHdbvXCb2TUA46XTXxx3iFPsRIUq2QRir9Z/g6f9qu3VoDptgqXUD2QCZ7S6tmfUSE5M1BAM9kFNKEOeipTL2asGfWXvepFAc2vkgU0Mwotk020i9Wf0vU5gJ4t6scvMupPe9XzIWH8Ml3+A1gg2aCe5NSD1UHTZ11ePc8afdtC8HT7H8Cf+2X6baF6DKgf7IR3aLfraDL9Lq+eg8Q/n6Dv11KPpj21UfSHA+qduA1Df6YF6AdeegWpj15LfTKWqGelV21OfRhAY53fTqrnpVenKVN6NYQ1JOvXfujL1J9z6sPCMba2UIh+BNS7tkg6QP1E8uqZrx2zhWMjpB64J1/9LOrSaE69//e5VD0r4ehppi4t+LuoS8uqn0TZ2z71kfmerx4DgRJNV9WJ7H+ZegSVvZ1rqOdpuAawDE99u189W9LJVNUF6mm5+imvPqgJFFV1WfUjU38C1Ls9ct5SE7hdfZACF2NoVj1BvORwzJUc7lbPRcOiPc8F+6Mhx1Oovsurx/vUsx9XHsgu9S/z6nFEfaZgkpSpx6JgkuQKJgP17AtNVv3LhgO9lno268GA557rqX8JFEwG6vs96ue2iZV7pqtJh0L1LfcnQ66aFFTfZtV/GlHvZ2D8fscLtrLqp1U98+XXVH8C1PsVVWO3Rz39vLAW1lePi9SPL0TdTeCcSE79ckx9k1ZfRs74jRhKAvVDRn0ZOeQbUbGVVU93kaMqeQPX+tJXv6HU1lL/Y0x9W0M9ppFC4SajnmmYitUHzulXmTrkpkj9y1U9BtTPOfVMQ54cVlPEaAwi1E8L1GfRz+0YKXP+1K/k9X5vDqmnX9RQP51GVicKBMAvqqg/kx5UP1ZRT1f1TChU/00N9SNTfwbUk0C9t+mvLVLfyRrwQL1fAz67edpZosd9Un2sxHz40UePEKB+RG1KPekHXmIe3OYQbKVwy1BEjeaJIJRSP1wi6l/SsIK9C9VjBGSXXfXMHwfqG0/95BXIC/WfILD4RavH6wVY/BfkW1oaFsifAvXiBMq4+peyQN5XP/vqB9R81frqRYXkJa6+4VWKQIH8iYb19y2A/nMMkK/Uz1H1Xv39hH51cnYgr+r/wksIKZAF1+pZUT333J4MPY9eef+Xp9lT/1aW95+i6leDabj38K2cdq56gn52dw9w9SLV1EbVr1ob7j1osHtg9HYPTN7uAVZ/Lw75bZLqZ0g9cdXPiKVpbfXr1aR6YNFJqWdDFe9RgQu4jG5ZHBt07JnuxDYnTGJzwiWvPghQnekCRf2k1fOyk5WcVi3Y9TH1eu9DGEGO3t6HSe994Jay/npSi6XnmPqhl90T2PtgfzK0vDDd2vtgqQ+XnLX6Cw8VwvA63FoxKfWzUn+W6seoerwo9S5/qwpnook7S70kZ1bqncXcv9rqG7VzYwx2brBd6epDuXODWDs3LPW2sxDbpoz6Se7ccNXLnRtn/aXFoFcAtHq7Nw/cbUv1M5t0DvDGEOJtDPHSeRPbuaHUOxtDWq1+0uq9Kf2qaP1EZ5GZK/bVn416a9OEGF6kerPvhAT7TohVAMtML0Svb29w951clPrxvF4BL6H6gavXzop0gHrahepHUSat1Hcry/xHL98i0lN6aiu2/fO+p85TpGej3iRUR7atpVPqCVOvt7X81VLP70cPmcyrrGbE+rfCsarvw10zfIZ8Vl9c74p+YXbNaO1sXFrVY2kS3CdOcqOsvWtGojfrKqPYNaPUXxYq1oGHYNfMqh7JNImKJ13140Wpp476SavHOo6H1M9I6lK7Zrj6i6V+3qDeGhaYwa/qG0nqJMezAH1GfaOnCcNi7/kZ+d6hqZXL2VSqZ05CBdzT2SJHu0x2Ic093/f0tdo4Ye35YajX0fY0Wl+nwsVo9ez0Mane3VJElOVwin8HqOfbaXribCmSZq5iMq5e7VgyW4pOPPaR6tm1fgdsKWIPeY38z/J7akuR/LJSvwA7lhr+HgOhnneT77l6zPyQs2OJ9LiTnnyQ4xlXL4mYT4NR7+9YEur5E/y+l+rxr5V6sdrYoV5+b+i1ehZV/jGufkGjcWl8Q5TYsbSqR18lN0SJjYH080Zs35hPv5gZmTFpsRFQqGductAbotD3Sj0VW1iQSoEpLGx563P0s1DPNkQp9aYCC1ujFbtpuRvv5QoZ2G8lOrK730psehbqW6X0i79nn/2d3BEl1GMz6q6DbqvV895E+ajWa2rZ0N6yJ/KpVG+lCgZrQxTfZYXUTWv11KjnlkL1di5hnsyntmY718ySYYocfzsXV2pv51rDppNWz3sm3ytC9K4Zrn6dy/Rq1xKyMhGjpb6H1RMzYfB2i03apyJvt9gM7BY7K/X8pnGoXhaWoiVQzyZKVLoFbKcKsN6KxsuQuHruqUTZEAve+zGyGY0qn7qqz29Ga7X686KKnma2GU25bWuCKdTrzWjDz60O55kjMs7mv//q3/7nX7Nc6KgtR6xZngP1VhWkCM7556yHDd5etxna66bUc0eo1K+EK/XW/h5LPYM2/GBdGT7LQpQ98GuYrXQz20rHYrbV3OytdNbUAtxKByRzdK/lPR7JKcHE1TN/Zw0rtnqxf7DLqsdKvei5Ur3eqXdyKu7MzAXcqQeoZxbFVMyO+pEPpdprBOrF7NefYwLqR6leDEVIbgQk4EbAsVuSGwEB9VQ6ZDFOC/XryMn87aidUqCed93AECH1cvogogw5j2D7DOdwn+Gou5WwznNe/SRHK+7V5TA5ndjkrBnYNjWbAEs9WKYEFvgK9dyrG/WL2HPmbmPkDpmrH0vVL3IoF9GiEJj4NkbuTZ3iCnF272mJ1RG9iqu3d0mKStvYLsl4LQu00o95nONsF5g+474/SJ3wGQW3F7jgAVI/cPWODfN90kAltZiwNEts2Roih/Ag0MlRTWIMO8HoUHT57h3w2chCWHePJ43s8RTqWWlkZHUQUs/i+8HxrcJLToGo2IE6RM96hNqKZEB4wxbSod22hZSrd3NlqS8Q9Dnqi9Wv49Xg7VBNU7t1h2o3IHetOr0BdgKz6HH164h0zQ2wzbAFDfOA5w3S/t7gbNu6v3aj+qXdIjxtVr+tvbyu+g/XVb9cWf1VG33GfpP2jP027Rn7bdq9Yd+y17kEO90QiR1smy71sWMnT5j3R8RO6mPfcxbBrlYdO34EXyQnxfhJYhega2Of0SNgF8VHM6qOffsZBJvblbDTJ8w7eQzs5DrY8WPYzNWwb0oQ7GviIrQydooOYCelX62I3YorjmEv7CqzOsNyyxAexX42lz+EvYzHWR3vWYX3zdjBY1NI4X3PgvDa2HFZopOiI9jlt3Fdm1lHVdyWX91rpWODXA3Fm4aSKHZT7PgrtB97qeMgKhSrgN30MYI+LbIZAlXpM+xFqW8sCye+qoz926LLwx5lLlx0EGF2bewY/XwAO7OCEqOpid3MAXAzF2HHsIcowy6nCJWxz6gtxQ5+TIoMXk4RKPp+S9gXxa7qVNFpLrt6BPuPZd8WFeAN2TKER7Gra6NzEXYaC5TnEg8rHSw94ePYDYur65tRV3x1SNUG7Oeq2DEqy1XR2A0WzdTlt0l3E+zxgBGXZ95IDd719Hrm71kuwn6J/qUv+LYICepgb9QPp1Ls8b+UYBeFuTVsRoeu7MJF2HETv0LeTUm7wj3eUleQxX4pxN7Gr1CAXdw56WvyzggpwZ7whCVOUkImP6Pj2HVagxFSUmIxx+PkDdhTaoAGYp/VFJVft2Sunxp7807SvIRkU6FLDLvcT8FrwMsHF7CVYFfbEY5j17Mdar1sKKMm3idIAXZVuY3KS8dy2Il+7UemkST2PguiUz9sWdlKY+ePmxTE1KklKVqAvS8Vdb8GfEhUgTD3uyU+N/Vs8g6+MnZRrI3MjoJ0w03qEjns5ArYxVWLsLepS+Sx61naYexYY+ebFfLYk+NPfnAy71LcWGkIfGiw850QV8duzTCXDQ3CPqPP5FygHHtqLMePjF3E0/yfgrg0bdLZgVX39BrY5bRJEIbPBVqOYTfbm5YNDcJOZXpKWEJJjJHGTsqxb1pRhLF/L7GflzLsJBmH5IIC05k3pZZA7ETWl4vEzFw0Z+uT18hh1zvujmOXKx2Cr8fArq5wHDtuFfbLUoQ9sxx9E+yW5WQunsF+zny9GvbV/KRzFNs68zEGPYad1sR+xsI5tkKiBHsqDpnLsW+ZasPYv5TOsRR7ZiUyj70rEwy+B3wkVsfkLrzj2HMjMzWLLPWw947meMsti2bMuCJ2gn6U2C/LUhRTH8RO6mHHDTXvTC1LURzFflGKDmNvxUPcgj0dQz0i7yc5X5LJ2eOVTY+GfVUgscsTdB4Bey2bWY2dd0+lKB9TkyYLruzP86aUHoi9F282Vtiz4zRpM+NhOfZNxeohdsK2ni9mtMtjX2O39LPOYMcmxXEY+yKxC0X5+Ah/io5hbzSYo9gbcS1Sin1GX2QDluSf6/G+YsXiQAvR+7OxHZWx25aLuFeshZ1NHjnVim+cz+J+m/EPGUzVbIa5l23YCfo5c80c9rZMLlQbfNBxZWrynh8vSEPvBvuFw1aY89hV/JO6yONgJ0jAVe69APvpXrBjjV2d6JfBruOf1EXS2E9lcqFaX1Ej4BJdhZLF3uWxpxIJJqV3GPvJx97lNPSkAHvcxXvYy7c5+NgZbm7quLH0pTVccpvmCEoRb9KR67X4MdGF4H3sDLe4/VbrS2tQMURCQp92BjZjleu1KErep9NC7KLYR5ORxY7bDHYqzzuL/d3BjtOynmL3d1XsM5tl8kyaYO0gaezEOsUOajb2r6wj6bItwC4LZqyl5rQCduUkdooyeCDsRVbjQ8OyYIaUYmcdJImd097NZdhZ+76UeA+aLvbZgP2SnNIyx/Hpqiy+88PFzqsAyiw+wC6Lfaxi5rQCLtym/o6amXegJHZxnJk8vWguMxoPmnbtxcuGpElin4XBnBO1tQ52lVcpq592kbD7ZlB0jJHDzgQT2HnuhifYcRw7O31THPOpg6iyCmjnV450hWJsMIOdCyawY3EmXZdQxO9MHFRnlX8XGLyHXRX7mMKtDHZhZInCTtQodDETFn8VNmNmfwUG72OXsz0zmmbSYiJ+OMX/zCw4h72TM0tzZuCMilbT7d+EM8B2/TIpyCXGeReb3KTN2GiwDYHdvrD3zujNG7yLnarZnokMM9jTFWXScXB07mqfNYMX2PvFiZ1KjMbH3stMgbYUXJDijdqMdBxarW72LwK7llMCW7ETlQA2iHHmNLlTampF1N6fELt1BiwfubScum7e4F3sWLyH42whTvPOLTSOXR5oCGA/2Tog7FGDN0dCetjFpunOuk4aO7Ey9VA6XC239Yk7hLFHN0yZSM254Kx6lr319pTGvljY+wBVs1jY2zh22gQa4NoQYsXTDnaq1lXtrbdJs9NGtkAOnNgl0dEnyKcLbRl2NRloAeydwt4VYXeqsoKDlmdVmpvDrl7d4WAHKyiIPTdxsGO54bs3gUAaO7WrsoLkxIycXEMKO2nLsGN7EuZiF2fAowu2sKcrwUxVVhj7UdSWYGf9HcTegtgvVBmNjV32ppV0bL2CoE9iXzR2Gkx2iMk1XLRwqJFP00KbAfu2vH9RBGBjl6EQQdbX1JXgg3ZxY7ATf7KjzX1x1skDW2B9nJwB7CiKXXRkF7vYEdhYJbJKHYF7/cnG/r2P3V3PiGFnf8VdgB2crDgZLxu72pnWWvFcBvtZY19p8lBRK1d3sbF7PYhjB8pdyDbsi8Le+9hBbytLOiX2xutd1Jt7JXnvhaLd2GUPddYCdBEN7LEWjZ1vjvYCOxA7CbFfIrz3sSuKv1nYVQ/FZyuvS9UFQeyNwc43GHvXdueNEhmAvZeE57HrRV8xpbF0qJ6H7Q/j2Km1nMYPMnHjVqOF2NEKDocBGDs0OBEl6PlI+U2GvfGxYwQq6mzsHqXW0V72yBMWOXHs4k0DWewq4uK6LexEKfjSYkY9bhi7WZIiIh/Q2pcx85ccdgoNW9DgxAmnYUyge9631g6IBHZNLLsIEf3VwX6CsIeq5g3Y5eNFMmg02FXP+9rywAI7Rp+Giqzdj60cQ7HjcbUWbI34bAhjeTcXewNih5zkyqx6Mwa1oi61d/Jre+rViG98GWInVtm6zGjZLtm6D8X7mX/MZGcnjDrLZIQX6kBTVhlIdi52qicKX9nYRcDWzBD23lLYuB8t9lazAPt5dmZ3BvvZvUDoJUUAr6Zj5tNOY7+4l6WqtsNusylgJsqGLUfjxHMm7JkZDczGHOz4FMGO0NdfmBVM1fS0wEheNPbFxU6crEcIjpinqC9uddXZCR34q2I+s+hZFeGzLbgEYN1mQjytQd+NXakpckeytsNpxtz5+sCi4Sk1nQHXa12Er986fpKd6ATWLswR7OcQuw5zbJiiHAVaH8BOAu7kKnHGSBPPCcvkmBxNapLgdU4CY2997PoZu2ehCextiN0yd+tnnMPOA5EVbONCVIOcFx7jEHhnThKiJlvfaU0nC+FJ3hYORkP/7UMudhLEomJpSgzmjtci5vSPIEwLTd2EtBb2i9bk+ACZmfOxw/lCYmH3Y1F2Oyop4r16pYlgl2bzvd1FzZxeY7f2Mjo+4CwtmwTYoQQCQeFP+keTtHIXyzXk0pOdtD71NbOX0R3zpDUTf2EKXA+BsZs0DXzHeNN+D52ap/oeThAqgV34eG+8BhMHBPmAF2NIFH2ROesPl2DXRmNsUXc32xZFOY3BrkZQEjnc0MJu7s2ctpEt8i+qgSAednO0GfbXJ4g8UrNXo8XZ6xS2Wmi9BOsTK3LHOZZiV7N2hVh/38eOzbqL9LdnEiOQePMNpUOpzhRwlWGfXeyWt3a608xn0ELi7IwVMAgMYjdz7kwxThl2NaTTIGmC3YRmLz2QsJ4gHvK1Gv8OjLA0d7xMIXbirB1YZDuH+nGXLCPY1o6NIiDscdX8pBTO2RqoUuz22gG29NvOz7jk9XPKTUWM0xEQIPbyTdiF2KmN3TJ3ALtMH7RETUpR/BA3Ky7WgNqltBVin+11D2ei4IYa3+rQXNMdPffPnnBam5bKN3YWYpd9kso5spUZsDllkyid8s4ftgth33KWT+k+eWzyM3PUftl2f+udujkU1A4ez+p75eeDlGInBnv8dHoraUBQ/ix1IDObPJomwFRoXtSsN5EoKuvdeSRPu+NSdJptwz5mUmhes86lznFU1gSw5LUH9jPXg19h/9vU1HpT6r2EdrxI8nZrP3OiVl27pX7DIv1JUpFpiaFEmsqRX+WFA3xkFdhPcZnd74MRE2q86YS8Lcp7iT2Kjxy4NBsQvkJXMRkxd6KIpnwfOdDTZNR5nff4sAk3RXNK/XyANpqI8w83toiUK1U+0sj1aOfEXBN7fo53TPdVsc/XcTK8kStjv2pjR0AsT7TR09PF7kStT649Y79Ne8Z+m/aM/TbtGftt2jP227Rn7Ldpz9hv0+4N+6sNsveGvcK7pzbLVGqbLlUiPD7eO6rHCu9F3K/wWHvGbjXyhLEPz9hLGnnCvA/P2G2Fy2O16tjxI7wbfBZrQ7g29sd4r/kkMvXoSWIXOJ4odg66Nvb5MbDrzU91sU+PgX3kq2rTM3bTpgPvky9uV8JOnzD28QnbDHkM7OQ62IfHwD5cBzt+wtjRY/TVq2G/XkWDbqrS9CliFxcZK2OnR7CT0pKt62Afj2AfSr9aEbv18THshd1c7pIjNbBbeZJj2Avd6yS2TQ2oQi51tAvZj2AvxDKJyrJK2Dtz+UPYy2xgErsghjo2sxk7hg43GgprQ+WgdCvsYDnhUPjMJmEstbHjMuz0EHaKfiOvVRU7KjtoeDyEXX4b1e2rM2oOYS9z8ERhr7BWZpCss9Ui7sbIHugyMIPwydWxf3oA+1hoBINKLVXBrjzehD45hr2o89XEbp31WoidxLD3JTCwOge7AnYzHg7o86K+OoAgaWEVuTCtCX1XGfuLosvDo/9UOGEUfNfH/vMB7KVWcB3s+BD20tHmOtgRmg5iL3E0NbGbdR/UlGHHR7DPNbGbK6K2DDuKkVCCfboK9hmdCrHDVx2KHPykDgyrin06jr3g2zLFP6JhSwouh50WYo8tSg3flWHnQ/fYDFuml1Hs8ocRnaeyq0cO6KBl3+ZD99hWwW5O0umKsMf2qT5MJRGFvMHxhGtiHwqxj7GxfyqJ5GQQOp7RcezzDuyRq27C3lXAPlnY+6nEy42xG7whdszOn74UXx1S1RZ/m9TFvv4wlmGPPJyiFX357aG/CfZ4oVcJdvntG2GPJx5LKofkt4caNmOdEncY+1BekYZrYNdL2aynFWKP/+VS8G2RJqiKnR2qU4Y9ahmPj71VP5yPYidF2Pk/qEZfJebAnK4Me7xHjgVDm/w2ulTArtO37GEWYY+PQGNBSCFNFF82HUNRDXuUsA3Yh8rYl6PYSwJ4+dSGqjbDDLEEe+IUhZIAXn57+LkmdlSIfUphz+NRr+WbKmDHt8H+UAO7Xh5jhjgWDOoJw5jLsRfZl2kg9tmcs3wqO8svNbfKB/Czwb7l3BQQ+6Sw82c4HMXe5L99Bey0FDu9J+zC7lg4U4Q9NfDjAuxn9cNh7HqlhY+JZdjjvmgowK5fOHQY+2iwXx4V+1i2siZbGjspxZ4KdIeCkjSNfcuOnjR2ftmhfMIJtnwAr+muiZ13s6PYxwLsl1JRu6Wxc/dWkhNP2cXjYicO9pLcbOrZ5DtgTex6oYUP5+gw9pzjq4yd6xBxRgl2fAg7uQJ2Md6VYE/FW3nswxWwC79bhD0hcxvsYxXstAC7/KECdrwVe3J+kZ9Q6J5eATvS2Jm7KcA+pbHnFFjYlw0tg539c33s2kuRTTtLHgF7fsJqVrcOY5/RrwV2UgX78pjYJ4V9KMee6o43wY5LsafdYDZRUBm70Mn/KciZpIef7GRb31wN7PJq4p+COeRR7OrJ1sTOdR7Gjh8RuyofUi+KOop9eETso8QuvMf0mNg37RxMY++WMuwkjT0z0pvBa1PpTwT7sBH7kHkLdzrCmipiJ81W7OljNMZi7Pgw9qERdicKZ0qwo4PY1QiCKmAX9y+e9WNgV1eogF3u8BieIHZ82oh9vh/sSGN3NScufn/YG1dz4uIZ7H3m61fAbnmbzMUz2LvM16thnxV24W2m/NydHsNO62Ff3a0MIEuxZ3Yx5RI0Y03snQwgT0LiKPbpcbGLAFIUdhdhT/15A/ZNb3EBsX8pA5lS7Jkdh8XYN77FBcT+zUbsmZNS5iz2Xl35KHaKfuI6aC3sSxa73qBxFPsosY9yM8DTxN45muMtd0JNpgteBfvF0RxvuU17GddXETtBPz4udlIP+4BGiZ3/WpATP4h9qIcdNwK7TIbnc+Lz/WBHrXC4Mq1SUoZxFLtWdBj7SZj4/y/Y0/msx+urCjsuxZ49kekRsZ/lOpMs0s1iHw9ir9dX18jJWSN7StgnjV2M5BWw48fqq1RiV5FrHjtpcsSmu7K+wmHsq3PnQ6lSlM+JD7mTUjK3b2HfUqYHYr/woVRjz84hh1M17FvKCWDsw2bs6SD30bATiZ0WY8enjJ1msOu1NHoU+9rr+bXULDKPHR3EjvaVoEDYG4VdKMqvRaBP7xV7Pt+DPs9gz4TROhqqhp2UYp+zJ9SMj4a9FdiHUuzTYezV+upq33gTdno/2Fes/CGqKCObIxxlHi0h8Uh9lWV/OdXK6xZUxP6UTR4l/1wNO1vsdEppi7D3GYkkpmp9lYUC27CTFXv6mjnspzI5v1XAPqDpTrBTiX3WW8uy2Bt6J9hZGMOUqUX+/HxgaMe7wX6ZBXaBOY8dn+4Hu6C8HDu6G+xr3MTh0ieIfZDYVfhegP18L9ixxi70ZLHrfE68PRZ2pLGL37PYp+PYz2VyfotiV/OFOti/SkQ0cz3srYA7lGPvc9ekyRMBp3o2c9qIfR1USQH2eIbKw46LF+ZD7GcfeyZXxfI5WZtJrS542MuPPfexs/CFu3YVvmfnMgXYCUod3+lgn1HhGdZLiJ1xzl27OYEmiz1bNDuglMFPdl+dmGgh8T52iuSBM0pBFjtpcvkXTnvc9EyPGtlhZqj4QG8fO+N8G3aVV0hIcDzRLu9gHxFCpQeph9jFgTNzMXZ8ymAXVMYdjYMdp2U9xe7vCrs2wix2lMMuqIw7Ggd7RtZpPnaisXdaX1pDFrsw97gR29i/l7JFawg+dnXQz2S2rmc0rA8ojX2QeGIc2Ni/k7JFazcB9kZg1249kxfiA0ISuzT3OJcQ9iJPE2CXB86MpdinHHZu7r/6LM6lwU4N9hJP42Nn2XYWQpJS7DSHnZv76UUZdoQ2GLyPnblGBmUoxc4GhCR2bu79XIJdeCSCCw3ewz7vwH5JYmcByierTDxKcbE3v3kYCj28h33agT29BMsClM9XZSQapbjY2R3iMg8fw45LsbPOkVqSYub+gg8aSeyUGfiI9OuEShxNgF0e9GMOZs5g58IJ7CuOduIDRhL7KKpJxWXnMkfjYdehuzmY+Rh2BuPEBrr4ebUOdrkJssjReNh16F68PXBok9iZufcMXfy8WoN9VB2aFDkaDztR4W8xdnxKYufTbP4009iJxC4gj6jsFG3nVz4D4tjVd3PYmWACO6+tGe1JZNB46DTIvio+movmTj52doH1eybrnsHOBRMXwhp7VBF/1fDA+qZ5W2qRg49gn0qxTxns3GPzXhRVJO7MxV70/iEPO5bYaSl2msbOPIecvEcn5AK7sBmz4lfg4D3s6qAfs50qg104plP8z0wjv8FoImS0+mqrYRU4eB+7XCUzs6Us9ksG+6kIOxbYlaKpxMHnsac7jcB+jv+Z/W1MYud9FVk7HRbuaPIO3sU+A9gLakrj2DES+fDO3xf9yoZw0dg14BIH72IXQYdzFvNQUNsYtxkRoPBO4e5HtyxRPLp+WRbnTZJ5B+9ip2JltbO2h2ewK8cU0450GZG7q896CAL7ZXFyEiWOxsU+qhU+49Ay2NMnkMmxnVuFu6vP+gXEXuJofOydwG4GcFxQ6pvCLuLDi5fIn3PYpx3Y5UXMkFxSphztV/LJjwH2KcCufxJt3oydaOwnB1y0zaqDwE0O7Xnss5FT1807eBf7oAqBLexJX+UsgYdtUO8HCrG7fXUKsOO8g3exY1VMW4qdqg4CN2xtCXSxf2JQwtijb26dz+bi9uecJo5dC6RthnvkOHb54IG+erZ1QNijDn7Sn3vYT/yjzrLgNHZioaJB9ED1uXw+9qXLYY+93IeYrBmAfRQTzCLsvIPIOw0zCmqACW3GlYKwz/EXcalYx8E+S+wXWoy9sbAD5eiNjf0cx04D7JGXtxErXelgF+r5qo/Bfs5inxT2S4CqNdijx7vxpZYWwA45+MHKzzvYqYzmLvZrb5OuClvYw9Vt1d8EpiT2Uxl2lSk+B9jHEHtmSV47pgUK0AedskhjXyDs4Hk8cu1KqDqGXdiBxt77fz2CHTwHidjrIh72XmHvi7A7J2ENvqieuBXYTLg1HDwJY7DXRRzs4jERuzAjjV10ECkTFGDoWDCPnRRix/a6iINdvVz8YibYaeyjjT3IZU1uTUIK+3Aqw67XdLoAeyOx40LsxMIe5uGouzYew05i2M8J7OcAeyuwW3nPdPnMYJ2ENQXYRxd7bBbDxmYAO4XulfVS+pV8TbyNXY4eq8HY2C9J7BeNnQY5ROJil9mSGahqhLBPMPZmmf7wJ3EpG/tksLeF2JtFYx+DRaLB1CQY4VAjxy4Hmyx28Zk4zMHGThV2a/hWV5rB0ABb2Im/SGTyQw526lsht5kOwN5Gsf+JX8rGLnvH0Ewh9gk0VtQa7IO/SGTyctJmVGDm9X7eV8OICAwkFTAsMg829i7ArqggUFQnH5TC/l2A/VKCnf0VA9FcCvsQYhdvJ2ytcFWpG+Do4mxjJz52dx9HCru4sosdJ7CPPnZ5bXyywvcM9k5jXx+xd44Y9Wo2k9gvIfZhC3b1traTBaIY+4QaD9Vo1d8tNnavrxrs9AD2RmO/+NjBiJT42M/AnS1qjTaPfboOdnAmIMNUib31RsLRW/fJ28wB7DiOnYJpKqwu2XHr9jwygbGTOHbPZgDXpq5AfOzyD84+An0IDRjVqZGSrw+cvXc9Dx52ubo/hNgXuK8Cj1r5Ht9HqtEUdZazGxVZOez8hdAohV3SAGGfS7GrZ+GPTZPGbj2tUZEFYm8N9oHXJrnX7j3slwj2ywRhJyB21f0WB7vsajPqrFEhhV31TVHqwKzW6RTGNTnYg+lVDDt07OSgOoYXi5lREpVhH62tZ9xe3Nyt0TLY2RcgzFfYqYc9vCRRNxlg76LYMQIVdRb2xjMHK5ayo/M5CPMN9imLfZQT1RC78niW9lEX44SKBmsLFMdO3BR7C2EPDzji2JcQOwWxy6mCN/cgCvuX1lMVjo1GsF80diLeoHi2L6214Bx2Ck1LoATmKJb4gznfoG7+Gwu76mYw9kVjH8QbFE/2Zbx1nxj21cpHGHs4Z6CCoiBPgJWCn8qwz+aFymfx9s0S7DSoBZs2YJemGWBHBvs5wP6rELs2aHaRQcYFNvYzhD2kYQv2WbiEILeksf9oKRfYMfo0ND7rbYYnMTd1Ahri5/AFdiKSK69KsEMTVjRDOT09Sv5gPVSBnZWWnqLYZxaG8e/YUx0rF2ofRMmmV+v3Ghd7C2CHJ6yrVaiSW4NdhTN0xX4JsL8IsZvVLHSSK0t22GpF/Aq7uD3mK2YHe09OAHZwiRXOYU/6HZQO9lZ845sQ+2Ad2y5XZ2zsFmvKZjr+MZOdHOzdAGKHllgxuGZDdbL8exu7cKSO79HYlWqmTaYyi7CzxTgYe+9eIIzgB5PCtrCPGvt3Pvb1Kc8QdiWGlQXaYavV09QjFtjZmzpthm3snYcziCTF4oFQbbATEDsW2E9hFteKeAdlgVb/tG52ttI4awdkb0j1sOMYdoTot8oyeQ5VtN972Ae9SPGd/eQF9nOI3ZppDMpnW37Rya2ZNM7EHiHzSw52+CwEzvEPL0ymRDX5RG3sF4W98bAzSAD2JsBuhX7Uxm6nE06se3ztYD9bAanVDFivnULsSwz7AGM/2dhlz7eSUmcjyf84C+xn1j1+7aafNXYvOQU3U0Qpf9AjgZuL5gAxhJ242E3GQKmxzEdO1M7iETJxx0d+CmOf0rQb7NbikD0Wi7okeUaH06wiEYLsmatS0wfYT+IRMj4t7DP6BD4LYY5g70LsKm3jnErIfhZzUR87tnHqmWuQhF3MVI7d4CDmh85wr56aj32JYD9vwD4haG8BssFJfZZjhHJrjfBmjE8bO45hJ4U2o/0CQSH2U4jdTmhM+jlmsfMox+N9iGGPORofu/YLQxl2O5E065+T2PkeGCa5Et262JVOL/jCIe5ePyWDXQ8rDnZuBPyR+ME0RVDcZb5KQux8S07jX4L92kSwDyH2i36xrcGuh/PBLiOeRBn1OVxBcWqiqLomtvymn9MU2MUE38GuNxkEBS+Bhxcz7S7AftHYOwt7Jz2Kjx3bl590ZANi1wlQXfjhYB+j2KfvXOi//j3/8jnArn9wYw05B/BXf+ACdRv74mMnLBFz5hidGSQ1E99AJ/n36LOvyL//7FcIt+oGg5hAY4OwX8JMfgS7yScZeaJHbFWI5n459Rr/h3e/efGHh3cvfv+bP/1eX9mPxZCFfSnCDhUaGClLfjDYZaTg7xjootiBpt9QoLTMFnZ3PiY9uYedRErRMtjlYDy5yrZh1+RS7Vr1OyF97MKTe9gHuPQSxm7KaOCnheWHZe8m0aXxVN/DSaMKsAuf7F4OqlSIYdcLXN9Gnpb6sAi7djRUR+16A5/NqMAuYngv/5DDbrQM2i+8yOyEKMKuHY3CbmZrruPmIavBzqKjfvGDHtOGxge8mAHLjx/DVoR98bGbWbLjexn20cKuZndDZA8PiB1Z2DMH9BdhHzzsJouF3AWATk6QOHYxG+gjaziLjR3D2E9JVKXY3RyHMcQAu5ggyWpxJIgfIoY7QPtE1COaUW7HVRl2Ff9o7JqwADuW6yQXk1EjMcMdvJw7a7OdP0uDK8M+lmO39srIkKgbYoYLYZ8sN5DZgFKGfXax0zj2We2V6Z0JJGy4OIl9yG38KcOuDJyqegFjqDY3E0t7yuWyzsEOE+ivj0kd8ieS2+hWiB07uVR7ccjmhrKwtREIOmfuCxNo5WxOlg7505jbyVyIfXBy2M7uSwsWX/vUxXiDM4EBLw5gNzNXmtvYWYzdjkZxHLsuxjvPWXO3seu7Ky3qXjZgt/cdWPbr2CQPuWUW92Tn2CIEWtitTKv6ac6Yeyl24qzZGLLdFSor5OaLSuwsGTU+gReHsBuFv8mAKsQ+etjV55M3DVYh98QWldjPyVPjQOzlL80uxE5t7NQuvA6wyxTviXD3wi0n4i9mCPuGlzcXYp/s/R6jXXgdYFefy6wOjnp3O5dqsKPq2Gd7bXi0R0EX+896uVt59T9FvbvtSAaT2K+OfXGxa75mx4Wws91Vyb02c5o4BkfflPVio/KXe+Id2O2iHefe2WLrSckrM5/+VYxJCDstJZN9qfA27VoIex8UsW2ZLfpJoBjlzzuwsJvD1Ta8HKj0ffLCb3PsTnHg6NZsaewDyp8zQe0EqoScO8TWbqXYB4N9ivrrEQ1WXj7L4GhXLOqc+FLcSrETg51G4zuG3eTlswxa2291F8XNUtxKsY9mf9OYwP6dldvODpAWdu0aUfmwWtxXxcDKsZMEdmRhz7JiH0amfWu5e5dbVvJtMjWGQ5Sb0YQupOC0Azt00WPahnc3k0KXNOvazsSJWFZCYCw4ZcK2Vz2Qlbt318elmq5lThwQZBnKXGC4NnasSnc3YC9unMcVe+qEc9vICwzXxi7HO3wl7D3HPsbDcSfvSPIqiWXbRC3PbHrnXmHjjFBEUtlZO+/4kFc5WhyPajnystRvfMSkKHnCJ9lP2yiPK2qXKzQi1qyHVHaW7KdNnFeEt7j3TcoV9qgLHhDaq14sXqNtr+bfoPwisUddwYCaver5RIugq7gZseYk+mpUZjhAGwv4v7uOmxHDKUVjahFoOEDbkEpcHm3Mv1BEU/EhOYBdZl6XqzRGOEVTKj48MqKLqqPd/SXd2ESIojlFzXzAXGkiT3+4sU1La0yAUlnCT/ab63RFc+czIXole2SNXM/c2UNtrol9vJ65s4d6Vez5db1Duq+LfbiaufMR/6rY5+sEM7yRK2NfftNdTfV4bezXbLh9utiH09PFTs9PF/vUPV3sfpXl02rP2J/bxjY8036L9kz7Tdoz7Tdpz7TfpD3TfpP2TPtN2jPtN2nPtN+kPdN+k/ZM+03aM+03ac+036Q9055q47WWmZ5pT7WhvZbiOrSP6GN8fNe7q0q0D1dcbb9du95dVaIdX6n87rbtenf1THui3T3t6Jn2Ta0O7dMz7dtaHdrpx0k7eqb9Bm16pv0WjT4F2j++uP3uaR/RxzJLdc9LuXPah+uVsz9uc85lHe6ddvyx0E7tXoufaX+k5rx77e5pRx8L7aO9LRXdOe3TR0O7fTTHdO+004+Gdttb0qdA+7XWYR63BbTfc759ROiKm9sesz0pax8+JmvXN3L3tKOPxrejJ2Tt00dD+/SUaB8/GtrpU6KdH2XyUfj2J0U7P+79o4hkRvt4jfEp0P5RrHIMdqg+3HfcLo7tuQXt1ZP8jgHh+7b24Va0T9WN8T5ph2sC8a1op9VHFOdO0L3QDtcE3pL2uvHTZJ8UNqF78e0YNC90Q9pRdYXWCyyveGrYVtpD85puSntfW6H1jt87svZwMkor0z4WO2xa2xypPQGhd+PbH4X2odhhV0+IOwrvnPaxLu1jeXqn+uw9nKTeL+3ycNlaVjfckHbn2sN9+3YGDtfzsXgj7TUjd2RfG99TJBNQwl92WfGgUIy2+faKkbv73k5O+7XS2YdpZ/d+rtjZN1j7XNkeqdN57or2wLgY1he3oV0wU8/7uhW+90M75EoZuN9WpB1tpb2ec3crfNG90A7tbuBz1K/rGd20xV3jus7deUvWxK3pHmiHyuz5sFYxOUK32K94uUA1c8f2bdC7p72j9fBt2kEhJpLVzN0ZVu6bdu4P5xvRLt+mW+nST4l27g+nG9EupzRXmTJQPmTdwwkb0F4e7g8rOplxB+1XCaLux9qh92Fi8UqeaviGTdZblfbpTmmHNpUg8QaqavjwJl9dNZRxq/THe6ZdhPJ1ad/gT6uGMm6V/nA3vh2gfaxN+7aZIa05lQxSMvR6tW5bae/9r8uX21e69Wkr7T2uSru9Ta+l11sh3kq795EIm+vRvvE9WTNaSLXA3d1KjtF5vBvaPUqkcdajffu+kHrlA+4LtDHqh/ugPbREWpt2vDkwqXceg2tVGF3zJK4NtE8w7W3N8qztnvpqtDd3Qjuw+1Ru0RurDfn7aD9f4drojmmX7rCeE8Sb+029PbHOtdkb/u+Wdmkg9fBtN925WuDuXJuuP98P7Z5d1aZ9z+lctQL3yQmJ6N1YOxBTo8q07xkfawXu7rXHu/HtQ0C7WvisSnv/CN+J6TF3MQjar3UA2gbacUC7OmugKu17vtNVurZdrnEv1o4D366S4zVpb3Z8pxrtTkrmTmgPU9tqIbMavnEH7XOlwD1IydwH7eFhQjruqIZv2BOD4zqB++DlBvr78O1hWTOtTjveY7iVIkhXDVnvCF/vcMujtHNzqGYWu55fPdqtTkMF7fdo7dobVrP2XaNjpcDd7WmMdnQPvj2kXXvDWrTvO0K6UuDu3gTl1T93QHt44ASuTTvdTXuFy7s3MaOrHtNdTnt44IT2hrWc4D67rUd7H+i9vW8PK4F0wFxrOXNf5XClwD14eNU3eVutmPYpoF37vmolkDsXB6sE7hNE+9VO4iqmPdwdq8sVq+Ebd9N+/Pr0nmnvna/K36vhG/aZbTXaA99+e9rFpmT7E102Uw0f3uekSS3a3U/Ge6CdBzIODB1x1aR9T0hCK9EOLxRfpRXTHu4XRNVpR7tpr3LiWbhQfLXj/vbTbtYeacXVzL20Hw6wB2ih+GqH5Oyn3eSna9G+d94z15gvhbZ9n7Sb/HStorDdVovr0N7V1xprxbQjn3YTttUqCtvto2t44fukXUxSbaM2c8OhXiZsn7OqMU0N80r3QLuYLdk2ZX6thW88QPvhwQXdpbUHuQGriKoWvt2BcgXapydCu7XQXgvfbhddgXb6RGi3Ftor0t7t/WIN2u/QtwfnxOH6tO8OvyuspgJR1D3QPgC0t+bHGvim3ZPNCtNUIIq6YuFAMe0YoP1sfqxfhPg439QNiKKuuLi0kfbe+aAPfzzSbkp7GEVNV8z7FtOO+GGPnfOB+u3m1l4hKYOh7XA3p509eofd6Tq07+w1+COlnfq0j/VpP/BC7eNJmbumvbe+V923H3ih9vGkTKjhXmhH/nuirZ+XCg0for05fHGvv9wJ7cir/zaOBdfBd2vaPUd5D7Svfvczd5OyBRPdnHbykdI+eEc42TPK6fa00xq094HO670nsJB27NFupzBqmQU6RDs6fPHQ2q/3nsBy2r/2aG+gnw+0Taf7eu1wUmYCab9aJqyUdsRPzroq7UdeqH14mgrMkMfb087cN/XOBLXfGd1UQXLgPnEF2sNj0G5NO2PWqQ+wLZNW27J1W9orq0y2Ytpb++k7rrDSkH+U9kO+HU6335p2ZunYZdr5pYa1oxtb+x3Szizdp723fqlA+3Rr2tvKKpOtjHYM0L5Yv1SgnR6l/Xzw6ndo7ZJ228DhqGZ/o+hI7H00BfnIS6mFtCPP2kf3WK0a07nxqLU3B69+f9bOMzA2DCemrTOdG25K+3CPvp27cuzkHN2Fpjq7cQ/oOZqCxPdo7dzzYSfn6C401aJ9tzM9Or7ge/TtnHY352gxXccs+DrK7m/T+tZ+zTKZYtrbyU1+1aZ9QugIcxVof8wymTLaWeBi39hYn3Z6jPb5OO2PuZRaRvvqvXsbhvu6mCpO8CDtR9dzH3lNr4x2BsqGgf0iguPWPh6m/ZAnvmfaW/t3968VcBym/UiXA5dSb007c+Wja+21acfHaT8CAt2htfMwfXBph2t/9zdOe3vo+wdon+6R9lFOUjUMN6StEuCim1o7vUfaecLCimzdkLZKgDuhm/p2YCn19rTzoNaKbF1EtY4VubW1hx/dnvbOvq+r0X4z336v1u7QPtanXWwEPJC2P0b7fI++nftNy3kO3mm4FRaXgo2AW9s1IpnrlUAW0c4dH3Z2bzin4VYwC3xb2u8xkhGhiku75Qgr0t4fUvCR+fbRp90d9qvgQ/5GwK2NHBoZ7jGSEa7cmLgXqNdwgqvK9rC9toe+3VRVmGsFtAtXbuyBBrQfLhygXtXZLg1N1W9ftby9kPbONvGQ9sOZMOrV4ezScIz2NvzoeivYJbTzUd66rbE+7aOg/YCGY7QDZTLjjWkXZQLWbXk1JTVoFzWWR4awY7QDW2KHG9MuRnnrtrx1xxpmwfwYuiHtj10mU0Z743g/HBxsXYP2b25M+6MWhW2hXd2WN6Orgc/fGrW9zUdpP4cf3Zr21qZ9qk+73Bp1cO3/47L2Ub3uWt4WrU/7eAe0+98mN6Zd+G4Tvvj5iwpLqUz5vdF+60hGGLfxfv6xL/j4Uir2qs526jj05TuLZGR1r0Hhm0GF8zX8OpydOvojX74z3y6TcwYFrk87ErQfyoEcoun+IhnZ+XH0RN/jtPMOdXSye5T2vqa+bMvSPmraJQp/IeZ4Xpp3qPHGtHc19WVblvbBe7m7fzbpVIX29nDkcNS3dzX1ZVuWdun2tI37CzEVVmFGVOHF0x+ZtYunHn/tTAXaB68gZFf7yHy7MG5j42N92vE90H5f1i5dtyHX38FZh/a+Bu0fkW8ffdr9ELcC7X4dzq72cVn7ANDuWMHxFfagDmdX+7h8O/Zp9ytKjls7rUX7eXelPfDFm9POjFnbdBCmV6G9Pe5LRV3ZPh3QexJu69ulK9fk0vq0j6oO55B1EUH7rsQOUAJprH1EV9iPXUA7e+hJ2tujEEQdzjHaB0n7HjBJ2oeD1Zlgy9Eun7SO1oOKkrHG0ekdeOebGlJtx3cTtB9Rm2gZ2pUr19F6cPDK8VUYLOtwDpnUpPnZoYVGffshtYmWoV0Zt47Wg8z08RFf1eGgYzrQfudOo5HMiK5j7hnalXFrcgOWD9M+eZUJO3XotsO5QxfHagn5KuaeoV0ZtyYXVaddDA6HaLdscpe5R2kfj+mNtzztnfyXP+0wwj1MuxgcDtE+OLRvN/co7cMxvfGWoR0Z2vm/oRc8TDs+Tjty2+bvx2j39FY09zTt2rgt2sP3ox/zekLBEdonj57NeCK0f+PprWjuadq1cSvaR+j96McQIJXQ30v7iI5aZYT23/qK60UzWdpbBaIX4r5LOVo4YBL6e41pQEetspj2atFMmnZt3OpJo+q0Bwn9zc2w8gXimZnNiqCLEwS0at49TbsybjVZBVJ1R2kfdIpzp57JtnJajXarD329vx/FWpp2ZEbSRv5b29r9FOfm5tjivMsFR5yMajMitc09SfuEvADmOrT3ywHfPhmT7BZp7ltdcIr23vm1lrknaae+tY/1aUc6xXne+33eZDEfN/etEwlD+6hBKNrlr8T99WjL0t7buIbqvt1KcXY7vy+skFoTuh20SzMe7NP/nI5Dvd+PtSTtupTdSkT68gcXl6jRvIt27XNVxTDd4YGtBXp9M8Sz7rmqc0/SHmTZQ3Km47RHNBc1bezO8NNuBxHQPvjGTWs69yTtyM+yh+QcXUodo5pLvy5tUHVIZpVbEVl1Efqr2Hflc03nnqLdROl+ItK0o7QPXtJn+9elL9cbqfEu2lVdhOvb/Yqgas49RbtJNypSUPVjV5CX9NnWpLF3i8X2jhcX6DCKIjeScaTmis49Q7spBWO3NoHnfxxxd5NloztoH0x4gRWQHYYwmO9qEDh0VrSec0/RPvq0jyDtR6x9PET7aAXT2FjsZgeMTTmKY+3enc31nHuKdlMlIH36AB670hy6vElxdnu+jSwF2tq3OmCLdse3A7v3Kjn3FO2mSgBr/+m7toO02xUJ3Z5va29LrAKqraqwqQJyIhn/Zkk1556h3d2dB3Bz0LfbFQn9nm9r8xuO0a7mJw7tPqJ6zj1Fu8GfpP3I40cW7Zu/PNqRNLZpj0Ea4T8Q0+cc2n25es49Qfvk0C6jBYD2AyvYzsxgs7U7E0nHt8cscmhjitTDt317KExrOfcE7Va6UT5jVJv2MZgZbPyyMT49SqSmqRjuB5arsyOZULaauSdoN+lGGV1PsLvrjlzdipW67V+2AGG7a8Zpb+GPdZ+z4/YOlKxi7gnajXeT4coIPOljm6eDWGnjly1A5vyXxDQ18hfL2jO0E4Sq7PJI0y4vIGkHwvaDBb/YHz02ftn60mCjjfj2KU97H0KzG70+7cinHXJ3x4rCgtFj45etLwVGAjSaox3UZ7e5UuQep93y5NQ7d8Bqh4rCJn/02Pply6wLaY/5dlkg0QD6fNEakXucdsuTU/+UDQfG/ouP/uix9cuW4RXSnoxkaJ52siOUAeTjtFuenPpnyph2yNqdA8h2pA1tuyujHcZqaId6j6dicygzAfJx2i1PLvOE0HM+5NuNubpUjQXu0zN2K5KJ0z5HbnaDtW927kg150tJ2jstxMwA9L9HaHdHj8YGlXef/ga6oYD2WMO6QCJL+9a1WqdmzbQ47VakhL2jIK12hHYrM+4eWloyYPirP46T2eh9sa5nztM+b3LuyG6WvUdpn4IZIBS2H/LtlllOPu1ZpX5Ige2esxGTonjI+3Y4NRlrbuW9BTdKuz0lFRDASfeRFIXVfVzHUDIl8d2loWnePKPBeoUeioxC4VL1fuW9+UuUdu+NkRHap4NbjrxYSSvN3hiTca6MHZ+4mXZZvtAFn0HCper9ynv7bflxKAW0H91yBL6mr6SwC1WmXf7bQfrcRspDGYRi5p6i3c4993AG+sjikj16BLS3+e+6Mi7tm327tPYe0hdKl93zFNBuZZDgr4z2MxXdCnrKR6zdHj0cPQVnWlDftR+1dlkGBOoLpcvuOdhUZRDHaLdre4WvBd34Edrt0cPpNQVnWoQdAkOp98KGdRlQD+kLpcvuOdhUZSAP8YmbbYqog8P2I7Qjl/bG/kOOuBElzj7YTLu8nLNkk7T2sugNo6hzT9CuH40IhIcI7Xt9+4TcSzT2H3LEDYHEAdrVILOB9qKxAyt/jgPnHqPdtiYx7cMR2vdmn6l3Ca285N2pKEW7/369koFC/ltCO0GFj1Uvf5Ev1O4nhStCuxM6U3WYF7iUvjc34Acvlt9DKNOJptD7Yycsal3hvggJRUWRDN1Ae+/8ZnBFaB892hs4kAlpL5+zjh7t+hfPDUINEMCRsKhgW5Rl7eZDkqS9qIu7T47YoCO0O5uU+G3AU0ef9qk8YnZSPG56BmVCmQnoDjgyCYjkkuxGtW93sqAxBMU5SL/DWINChHZntOa3AXctv3AAFado3FiEOumZ3JhKAedv3aNHezbgU0mc0UvHdXHxovDNV2ENCnHaHVNsI3k9r3BgQsUTRHfTH3XSM3zfc4b2xLs0ttKuvjvAq1WQeCntsbN3IrQ71sSd4wgasgduQ9mnG/1aTDFLntPuc0TJd2nspd2pGUvQTnZae5Z212q5ScMe8hDtjfPFxly6yeQ9gO2xCd+ez6FgVeLZOZ/F7oRei3Z3gYZLY9D+PM1jOe0oQjtVtKcrwBGgL1SmpDOBh7Z2N/C4Be3+6AI/fe/ToZj2yXXP1HmJWZuZCQL2O8UyDYXWHtBOb0D7uI/2EZWGtL57Nnci/pBOaqP0HiqPFlTu2917SdBeFK8F3SwXyQx+CUofp91dvS/N0XgZHsOU8NvJ2HiCaQcTPLC01yDfPqRpL4nX/G425Wh3bY1PAFGMdvdrpRlJHKNdTOVoap5KM9Y++0FSAe3i0sVDapErJd49jBnavRkplpNU4Alj36420G5bArXOh9enIMUsCuoKjoVjb0pQFslMfgrlKO1+rxgys1QvIGF3BIftLu20nHY/8tasydEhWXwFhe0+7Z0jnXHFQp6WWvtcOIJ5j8cGAtLuxsU8SBhgPgHai3y7H3kr1nRqESc0DfBaeqTGpWCtaiPtS+Fqqkf7YNnkANtwMIPEBbSP5dbuW6CVexV/IAlNCKY9UuOC8uEVRDtJ015yl06vcMmJ0e5GsNFpI/aSdoW0T74tU+s0mMb5oeDLUt5Zouht6ZxxYnXwah9RGMqXBu6RVQSQdhTSHrGYYMG/DFCQslbWrhUkSg0h1+6G2dhdLMiCEvKjc8EU7aQ8cJdIVRFBanXJi1qYJUYKtZxqgmEb7f5ZLc3iJNLj81RwKjwcp33wQ9oo7RsCd3P8lAMDot2LWqh4UzWEwo8fSmkPTFlO/KxEOkax+wb/gmO0jyjv3IUfx5toLw3cTYCWoz2cQXaR5+vHD4W0h95Z6rc8epp2aFcJ7NulnSWdO70S7fp21IpZsk4mnEF2kbCd+gv+XxR5vXA1Ut6I9djiWRnQ60etXd6w+EbkzIE9tJcE7nKAQrolq8LCGWQXWY+kTr9B4sjzvNcLrUV84qyRxoJjMJBxJ6YW7Uyan9HL/xo5c0DR3gafxfGXrqaiHtrQAdHuPUsWJERy1jbt3MeUdT8USInlTCeDGVvDAQMZNzmEnW1XyEx5Ix6QyvecefPm6I0Ub2DCyGnmKwDtfvplELR3MF73uKEi2oEqF2Gt9jwumtWG58u+tbe2tIoopjjtLUPlLZTFbwQXmrtLe3o3h+/HGeUoSrttVtGIJ/hW4J01QJt2cJjAMdo7SAQr2hlQGhl4qCyN8GiP27NT85JoJGLsEO2+Oa2gX8Rp78y3ovUF4bcCbTgwiZgqnF/UBWlv/XmoAwiiPW7PYjJQNohBxg7RjkLafxuh3ZobihlZ0b6h0LVbduFUXsITY+hj57rEqUNotHHGHAeVOdbO/yzWDJ0sOAooHM8orG13UIe0B5ECFrEA9GwHl/Y+nbizLgAfw+U88Ei4AM+X3fHIWOqk+6Bcs4rR3vplYIW090MbVsKFhe3+rYS0B1YmrR26vEWysKcS2iHXDtAeKb6CixPcgYA6dQhnfRr1GKcdeQtladpntLm5PRSm3Xl8gnYQgyFZrVjivMsDh10aGgU8dkI1Mr4ndmnXBebtEPftqPcOok/6dj8yzLY2uAtfI5PyL/HrLO2joT1n7ewCUdrdUwTgkAXoeG7cYRZT5c2YiAJExA0BBbQnInOykXZfVUB7OAnE4PNSf9JrsvEzZ8ILhEZHQ6ugMdoBKJ7XVn1OVw0o64zG7SxYA1cAlug3NjTg0ClAYbArCGcOYjGbovO0w2ubwMsA4MAdhjIGtJ+VCs40SdIOvYkg6ds3O3f/+yDtfi1TG/PY2Dr9SDzSvG+PVI4Je/RiCUAX/FyHgHa9WKV/iNMuL+7oTdO+1dzDWMf7IIwUUIjJgttpFGfnk2iLKAsnfvAcAMcemkc750znb+Y07WQz7QfNfQg/8J7NVEp753wSa7Brl+YTKwd3P+wTQPSvnDNzM9K5R9w1MOukBQuwBa0FuvEC0B48GpqgXX8+WrSnU3OxshVg8RSkHZVYO7FGUv0JaxFsFEG3nb6RsmDmLOU8XT7t8MIPbKDW3FCbFc4ZyRC1OZzYoOFcEqbdGxZaDw2OG4+8x8b/KF9LljV1Lefp8mmHF35gAzWxhjFhnFnVSxQFE/9jEonvYdohYMhJ38dpn0Pa5+zyJCkwdSPnfheivQ8+SaWQhBbr0SbRDqi0ShLOXEXykuEUU1Y12ls8UDzKChPoRSflmHjm69DKl8SVfdrDRdMS2rH9aJNo8TbaoSM94MoeR6kMguybSR9GTaBOnsc5I8JWj9f/8Z8IW0v294CDb7AZAuv3r5YwE4d2HdIkXWLpukxMF42lJRv/Mp1/M6kpBYVue+9pCn4DnLtPO4rQDuqjdhlI534ENxR37Qn1mc+AT7FamrU+Jon1oBm67dJemWuAc/doB5blgVHe+pMpA+mdj+AGbZ+Ot020A6fLDBsuhoHbrkW7MHenp3m0A8vyBbRbGXSKUmuM4xZj30Z7kEc6L1suRnzJuSLtobkPvvEHDpDGLZRaGY/eSMeTMkN0dE6pz30GxDxY1m2ibYeGuSpq+XZgePRoB9x4wkKplfrozBX8iqyz+/sW2iFrzycgrZh62d1wPWufg/t2aYcqrhK7IaiV+gBo9yv/5O/FBhihPZ+ABBertraKtAs4cdojm/ljRkOtqnSAdqTb2Vx8gwFCtI8lKRlwsWprq057vHIgspk/BoCqYivQt1vHILbm4hu8LQWXZQpSMob2/a69pm8Px8fBLwBD4eVTtLO/2ElFkyR3K0XORaciBerPABqA9kDtfNi1V7X2IOcT0N6El8/R7vQRzYtbLNJar60ubZAfx5EqmQZAfWyeWZN2s7oom0P7iHbR7pgVtrdjAG2Dtx1LaQcGAXLUtdel3V9NGNxfAANJZFGE83U39WMnzRy0LfY3bKAd2JV9zLXXpV0Vzanm0I4R7E1jVjOqOloLIbGim2PGDlIMbhcFzr47/va7urR7KU6f9ga4fHSGI8yROkYsO/yEDhs7SDsYt0e6xSFjr0y7S5JDO+jaU7RjndV2zrhjKisYe4z2UAeCu8UhY78C7Raewfk5sisoZjY6q+0daNHHjH2b/WG4eiyACJ7+QQ8a+zVot49fsy8UMaWY2eistlttqz4E2iaoEWuHEgZgmdlyqNWlnY815m582gMLSb0oA8pqC9rt3aB4p7Fvob3ehNK6elNXXYR2uIKFpmnv/D4i5G1XTnYaO+iyI3maIwF6pFWm3X0Z32D/CFlNEe3uCQVqK6ZborLZJGMuuzBPc7RVpt117oMzvwSsJku7Z8WmhsErUdlskjTW+fzP0FOg3XXuHu3gPolUdUnvp+gp6MnxdmOHQ3QAzoSOBi1gq0y769wt2mHnOydcMuabIFwznkFPTrYbe5x279MRHQ1awEYqa3WciaF9QrFzBdqEphfI5wHvC1ugC5fRPlwlkDke+HvN6fCG9pj3neNmisUePpeHCsuYooELScCpdOgqgUxk+XB/c04/07TvWWfH9ukVqlVYxhRtiFWyB8WK13Dt1WmnIO3jDgPF4kgNsB7+uAViEE+Qa7mSa69Ou5Ny17RvKcVVDUPvFaCVjD0SSgShzJVce3Xf7kSKmna0j3YUo/24u4XxBM79Sq6d3UddhXY0p2if9lgohkIWWsnYp/he2NYVu4prT0VwexXax9yIf3dZKBiyzJWMncb3wvrrv8s12ly7E9nOXdK+y9gje/hoFWOPDmnBqmTl2eT1moWc0z7uc8cUpn2u421jtLsT3hE9Ldolck77sG9aSSNfo1WcLU0ch2EfMXelQOYKzZqnrrSjvdPKWE3jXMXZxpaHnGPpRnStQOYKzUq5D0gve242mloxy8aGnYjg6Ri7nXIfkM7UbjaaWjHLxoZNH3tSxm7X7li0b3bI076vHW3WJv7hJgB2N2wBp3tdu3Qyy2M3k+JEtwGwu5k9TIb27UZDb2RrKqP/zW3Glv3NFGYOaH8pOL2RrUXPEr33ZgbDAe0vBfeLth+rUYf2p+Parf3YK+27S8HnG9Hunly0PKGGFdUr7ftdNL2RZ7XqzJ6QZ1+sPSYr7fNum5lv5FnJk/Tsi3WG0/CkOqlq9El69sWY+9OkfX6Snn1R5t48Udpr7MS7TcNPm3byBD07a+Rp0545yuNuG33itM9Pz7GzNj9x2p9sw083knnKjTzduP1JN8w3fC3P7XEbQcsz7bdpz7TfpD3Tfou2DP8POlLHD7xWaPEAAAAASUVORK5CYII=",
+          "width": "8e38226f-010b-475c-add0-b323488b3941:number:5.31",
+          "height": "06d4eeac-2d4e-49a6-9ab9-79bd7ef88f25:number:1.15",
+          "unit": "ebf20f86-3974-489f-bcad-a477f2d61ccf:string:CM"
+        }
+      },
+      "transcriptType": "7e933217-e2fd-4b57-90b3-f41c3be0294b:string:GDOF",
+      "transcriptReq": "31a6ea72-3ca3-4191-a138-a023676c98c5:string:002047153",
+      "transcriptGroup": [
+        {
+          "name": "71479810-affd-4e77-8b85-789e8c792afa:string:2210",
+          "term": "9f53c5db-60bc-4c12-a2e9-b2317096589c:string:2022/2023 Semester 1",
+          "formOfStudy": "cc9cbe10-f6e5-4d35-a76e-9b16bb1a8d10:string:ENRL",
+          "fosPrintArea": "b677f490-4aea-4be0-bcfd-496155897a85:string:ND",
+          "summary": [
+            {
+              "programName": "9e0efa04-7a1b-4455-9a7b-23b2ffd15750:string:Master of Computing",
+              "includeInGPA": "8bcdfe93-e856-4fb0-8b17-9cd35c4c747b:boolean:true",
+              "disableGPA": "12099ea2-8b57-4916-ad05-82dd442be21a:boolean:false",
+              "GPAName": "ebaf0547-b353-4e33-b320-131fe78b51c1:string:Grade Point Average",
+              "GPA": "5af3693c-85fb-412f-a1c6-ffa73385cf9c:number:5"
+            }
+          ],
+          "reportNo": "cafa7173-edc0-42f2-a3b2-c4dfc283c032:number:1"
+        },
+        {
+          "name": "2d9f0faf-e259-4ef1-88de-508bef6cc10a:string:2220",
+          "term": "24cb2978-7059-4d52-b9f5-1c0a84f37895:string:2022/2023 Semester 2",
+          "formOfStudy": "27adfad4-24cc-43d3-8e2a-36092499ab1a:string:ENRL",
+          "fosPrintArea": "bd8c164c-7709-4025-9d6a-a1810e1f3d10:string:ND",
+          "summary": [
+            {
+              "programName": "74ed155d-7cd4-43b6-9700-c501834b3db6:string:Master of Computing",
+              "includeInGPA": "706a4920-b22a-47f3-8399-9f973d5bff17:boolean:true",
+              "disableGPA": "28bb190d-fc06-4273-b02a-948daed23955:boolean:false",
+              "GPAName": "81ca6ff4-afcc-45c2-baf1-144fb7fe631d:string:Grade Point Average",
+              "GPA": "9bc66e85-3efb-42e1-8461-b6efefb966d1:number:5"
+            }
+          ],
+          "reportNo": "739c99b9-5b29-4c24-8462-00ff21725a00:number:1"
+        },
+        {
+          "name": "438e2016-458f-4f08-a630-e4107fd1cdd8:string:2230",
+          "term": "baf82ba2-d78e-44bd-af10-a179098005e2:string:2022/2023 Special Term(Part 1)",
+          "formOfStudy": "7f75ed1c-c106-493d-a5cc-5a5a8847ac7b:string:ENRL",
+          "fosPrintArea": "9823ff44-6543-4a6a-93ad-f0fcb3faa393:string:ND",
+          "summary": [
+            {
+              "programName": "7407b27a-edb6-4c52-96cf-34a03e862ae0:string:Master of Computing",
+              "includeInGPA": "c5cc67f5-c798-43bb-932d-52332de96ca0:boolean:true",
+              "disableGPA": "106c7e3e-5e76-49b7-97ff-4666f14d5eaa:boolean:false",
+              "GPAName": "e3e16027-40ee-469c-998b-254c26367737:string:Grade Point Average",
+              "GPA": "290040a1-b274-4f06-86ab-c1f8c04c0b8b:number:5"
+            }
+          ],
+          "reportNo": "c1003246-6b92-4913-bb08-1a0677b361b4:number:1"
+        },
+        {
+          "name": "199b5677-5302-479a-bba8-f80378981af4:string:2240",
+          "term": "5d7b6d03-4029-4354-94bd-dfa44fa7515b:string:2022/2023 Special Term(Part 2)",
+          "formOfStudy": "b2628ca3-2da7-49cf-9bb8-43abeac151c9:string:ENRL",
+          "fosPrintArea": "20b3b0f9-2184-4505-ad3f-e89a3a2019e9:string:ND",
+          "summary": [
+            {
+              "programName": "082954e2-50ba-4e06-9027-f508521cb61a:string:Master of Computing",
+              "includeInGPA": "021256bd-2680-4030-934b-02fcc8cfd99b:boolean:true",
+              "disableGPA": "24842132-23b7-4b49-86ed-15ffd7ac7f07:boolean:false",
+              "GPAName": "9edab542-959a-41a9-be96-89a6d3b6dd7d:string:Grade Point Average",
+              "GPA": "049789ec-805d-45ea-badb-647293d46518:number:5"
+            }
+          ],
+          "reportNo": "d09b7cea-638c-4077-97e1-6ae78ded398f:number:1"
+        },
+        {
+          "name": "2ae7055e-689c-447f-a9f0-b8042fdb6f03:string:2310",
+          "term": "f4b655a2-0d47-4cb7-9d34-9f0f4a552bba:string:2023/2024 Semester 1",
+          "formOfStudy": "78800ee0-cf45-4c14-a68c-231cacf429f6:string:ENRL",
+          "fosPrintArea": "1f72018d-a54a-4b0e-8cca-279680fa86c1:string:ND",
+          "summary": [
+            {
+              "programName": "824a6015-6159-45ae-a526-4eb0d703624a:string:Master of Computing",
+              "includeInGPA": "3f685c5c-f8fb-49db-aa2c-457b8371bc08:boolean:true",
+              "disableGPA": "2762d735-0822-4bf7-bd81-68ac21bbbdce:boolean:false",
+              "GPAName": "1d7f3e75-4e07-488d-8e5c-637273fe04e2:string:Grade Point Average",
+              "GPA": "03996530-e51d-4500-afc1-29751a1b3c52:number:5"
+            }
+          ],
+          "reportNo": "68703f67-bb10-4f3a-8926-f4cb2cfe4657:number:1"
+        },
+        {
+          "name": "1de60768-adff-44fd-aecd-27a1d9aa9837:string:2320",
+          "term": "fcb3070e-b51e-44f3-85c0-6a0299afaeca:string:2023/2024 Semester 2",
+          "formOfStudy": "25bf894e-3ab1-4d58-9143-ab47825f5088:string:ENRL",
+          "fosPrintArea": "d7674739-6b27-436b-8348-cfb0ece6fa1a:string:ND",
+          "summary": [
+            {
+              "programName": "f0caa5b4-0a61-4f02-a597-f9aebfd821e8:string:Master of Computing",
+              "includeInGPA": "ce6ac2b3-f108-4b84-938b-cc40cc808c7d:boolean:true",
+              "disableGPA": "ed7d851f-6e56-494c-8192-f392dcc353e4:boolean:false",
+              "GPAName": "95bd708a-0309-417f-864f-66181d926a41:string:Grade Point Average",
+              "GPA": "631c1231-03c0-4315-97d5-27df748840cd:number:4.96"
+            }
+          ],
+          "reportNo": "48be605c-c38d-4c7f-9365-75d7eb3d7a24:number:1"
+        }
+      ],
+      "programData": [
+        {
+          "programCode": "ff312de5-8286-4cad-b39c-238b284d5efe:string:M0310",
+          "programName": "4d71c139-c01c-4d74-af28-b8cb3b521c80:string:Master of Computing",
+          "statusCode": "16aa1539-1987-4874-a5de-a89bf790a79e:string:CM",
+          "statusDescription": "9bb65b26-7d1c-4360-95c9-9ac3a24caae3:string:Completed Programme",
+          "effectiveDate": "a519c4e0-8d5f-49b6-8ce6-fe6d0f92a15a:string:2024-06-23",
+          "admitTerm": "42e1fb7c-1e42-46a4-9e6e-8d3a4338f49a:string:2210",
+          "reportNo": "6c4c19c8-9c34-4bb5-83b4-80aec8359fb1:number:1"
+        }
+      ],
+      "degreeData": [
+        {
+          "degreeTitle": "2a64248f-01cb-441f-8d84-c834b3cc0ff4:string:Master of Computing",
+          "dateConferred": "074ee807-7142-40d8-bb05-be728881f9a1:string:2024-06-30",
+          "dateAdmitted": "61aac077-38db-4ef0-b68b-2c7a2a841a9a:string:2022-08-01",
+          "GPAName": "856a5677-463f-4b1b-aff8-acfaa7dd316c:string:Grade Point Average",
+          "includeInGPA": "66af9792-2115-4503-8d8a-9770c7c300bf:boolean:true",
+          "disableGPA": "0c4263c7-f9ab-4b2f-b8bf-b486e0cfcc48:boolean:false",
+          "cumGPA": "538d3a82-5fac-4989-9c8a-a772d0d9d3c2:number:4.96",
+          "cumCredits": "e9c8bd98-f688-4987-ba86-c07f0e7b3c79:number:52",
+          "reportNo": "1012caa0-9965-40d7-a048-db72e4529bb3:number:1"
+        }
+      ],
+      "uniqueId": "f82dcc59-55f3-4b58-bd74-27fa55854371:string:NUS-A0131812U-M031000-P17037446-3089-20240630"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/OpenCerts/open-certificate/master/schema/transcripts/2.0/schema.json",
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "aec2c93a8b679b5b58f3ee164ff7438ec7f4bb20fdfb8d0a79aed8e4eb42ef0b",
+    "proof": [
+      "3119a2a68bd9467047e8cba598fdf7110a1717d550ccc9d43d989d1d1c955319",
+      "867f26cb4bf3827c969bbf436f84e3601a5dd08597c38176afd31d6e45d53a25",
+      "e026cb7650fe072366cf3656707854f55a4ac7f1450303720af863e220253cf7",
+      "37fbb8833497a948a7ab98d2e7e2457b007ae503c159c45f59cf9314a2112c3d",
+      "c8ba8e597b27e91ae0d06be5a8895a7d3db4a8040a2b5575ce7b606c40cc532d",
+      "d0a1537686ed5175a21bcea0007a6cb21aad377d5c4139daf901a0f28309d633",
+      "46eafb20ff9e6a7d3c2cb64a2d52233578dab18b43ab343e882d697dec1b80b1",
+      "7f7ea5c0fccfe4cbab674c4344eb524fb8db07e77278bfc5c50ec075d3cf4946",
+      "f244b7b0f085271181a0c4c63f1cada64feb75270e1337822aab6d754dcff64d",
+      "d36dfe86a658d5ba20828a9b8fbe034592ab7fe9534ef1db61f1aeabea3459d6",
+      "240d3d0d6b2c11d53e5966486c3e0f737782303faa052865d0e983fd744e85c2",
+      "62039192faf8ba3efd4c21d95ddd6dfd39d181ac4a29de5032d8c9da0206ceec"
+    ],
+    "merkleRoot": "11423d34ec64af31efa102123ae28eeb438485588264699cad66f79304c8abe3"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2024-07-01T13:40:22.631Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0x253b74046d0d0d9efe214212f7900ae8b4f78f39#controller",
+      "signature": "0x54e321b58b46ed9ca973f8aae55271d01eea9a8a76288a0612ee793d12c01dd1454c9301f0008682f0e340a1f78eb8ce9c495198eb56b9dc1e91faa53c88c4151b"
+    }
+  ]
+}

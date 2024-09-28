@@ -1,0 +1,619 @@
+{
+  "schema": "opencerts/v1.5",
+  "data": {
+    "id": "60da0373-5097-4e2d-92ff-4a41f0eaa078:string:NUS-A0131812U-B071000-20180630",
+    "$template": "64785d27-3667-4d93-b332-f090fb64574a:string:sg/edu/nus/NUS-K1-2019",
+    "issuedOn": "c4263300-8494-43e3-9e2f-03b3c0366f14:string:2020-09-22T09:34:01+08:00",
+    "graduationDate": "ef9120dd-8a04-4265-8dff-8fd62415a452:string:2018-06-30T00:00:00+08:00",
+    "attainmentDate": "439f13fe-7384-494a-bfe6-6051023f6852:string:2018-06-30T00:00:00+08:00",
+    "name": "b0f3c54f-4663-48dc-a942-5a6a6102bdba:string:Bachelor of Laws",
+    "qualificationLevel": [
+      {
+        "frameworkName": "03d2eb12-3d6b-4568-8bb6-94608c40f572:string:singapore/ssec-eqa",
+        "frameworkVersion": "82b7abd9-755a-493e-b9b5-a027ca10d15b:string:2015",
+        "code": "52d92075-a5dc-4330-91fd-02566657f82d:string:70",
+        "description": "5786480c-6645-47fb-b4f5-3205cd8773fc:string:Bachelor's degree or equivalent"
+      }
+    ],
+    "fieldOfStudy": [
+      {
+        "frameworkName": "6d3931d1-21cc-4b25-9b0c-1dd9493925f0:string:singapore/ssec-fos",
+        "frameworkVersion": "0ed5796d-f2f6-4996-8d7b-a0a56f49da67:string:2015",
+        "code": "9ee98b6b-226c-482f-81b1-f35ae8081ea1:string:0601",
+        "description": "924dbaf2-4fed-4f71-bd06-cae9e18e385d:string:Law"
+      }
+    ],
+    "issuers": [
+      {
+        "name": "23f57368-4baa-4c63-8d74-80ff274eec9f:string:National University of Singapore",
+        "uen": "c7046313-f70a-436f-85e4-a41577af2d9b:string:200604346E",
+        "url": "8d4b6245-6f4d-43d2-8aef-292ab4f88fad:string:https://www.nus.edu.sg",
+        "email": "e0807e02-f938-47d6-936f-2f6addd53968:string:transcript@nus.edu.sg",
+        "certificateStore": "1d3564e0-9f9a-4b71-9efb-8febb5ef3885:string:0xA204F16717fbF580d6A0535b58063fB4fce969fF"
+      }
+    ],
+    "recipient": {
+      "name": "f7711ebd-a2da-4c9a-b90a-fa88c722e255:string:KIU YAN YU",
+      "studentId": "82eedf6b-babc-49b1-9cba-8cf3f298c469:string:A0131812U",
+      "dateOfBirth": "965df24d-b4e8-4030-b9c0-b49c63331283:string:1993-01-19"
+    },
+    "transcript": [
+      {
+        "name": "b3ec6f67-a8c1-4298-9ccc-2ef2b3b0136e:string:Criminal Law (A)",
+        "courseCode": "86c1e2c4-c910-4d00-8c42-33a272515e60:string:LC1001A",
+        "grade": "184497dd-d0b1-497b-ae31-b2557be164b4:string:IP",
+        "courseCredit": "2305b0d6-9822-4a9b-ad97-b8a27790d1e9:number:8",
+        "gradingBasis": "bb8ffc89-f338-4da6-84ee-20a61bfec2dd:string:GRD",
+        "includeInGPA": "cfa6edec-3cbf-42ad-bb2b-3cb6270bc0b4:boolean:true",
+        "reportNo": "1191b4df-62c2-4a99-93e5-e5fbf895f851:number:1",
+        "semester": "2fb79e1a-d6c2-4f2f-ad78-30e7941ef176:string:1410"
+      },
+      {
+        "name": "7ae92eab-6990-43b2-9344-d9decf260f58:string:Law Of Contract",
+        "courseCode": "93553abe-d47b-43f8-8f71-16561c9267af:string:LC1003",
+        "grade": "c8c40b07-4617-45dc-b181-1a766febf2dd:string:IP",
+        "courseCredit": "0e67199e-10c3-42a4-a213-d5d7ad8c36ef:number:8",
+        "gradingBasis": "e78ed239-168c-49f4-9b82-8eff15fb16a9:string:GRD",
+        "includeInGPA": "2cfcd5e1-8243-4fb7-8ade-d78513b4453f:boolean:true",
+        "reportNo": "5382d77b-109f-4e8a-a8a7-9a574eb47160:number:1",
+        "semester": "93adf911-f3fd-47af-b54d-c875f08e1029:string:1410"
+      },
+      {
+        "name": "57409639-ec02-4b0f-aa11-26428a23837e:string:Law Of Torts",
+        "courseCode": "64485380-35b7-4690-881d-930355099f7c:string:LC1004",
+        "grade": "a7493b2a-60bc-4202-81a9-dae97fd8c54c:string:IP",
+        "courseCredit": "87417e5e-3319-4611-9049-989706af6637:number:8",
+        "gradingBasis": "acec6189-1518-479f-aa4a-c59d6a266e9b:string:GRD",
+        "includeInGPA": "ca061438-89d2-4080-b046-da2284791f87:boolean:true",
+        "reportNo": "5bb4b1e7-72db-4829-9b9d-6900b3b00017:number:1",
+        "semester": "6d3ec1e8-fd0f-49b4-846a-53c12b5e7b15:string:1410"
+      },
+      {
+        "name": "7580fb2c-c79b-45dd-b216-7f25d239689d:string:Singapore Law in Context",
+        "courseCode": "5c706728-ff6d-4ccc-a42d-0a892b4215e4:string:LC1015",
+        "grade": "8b0bddce-e23a-42ab-afa2-490fdc2b609e:string:CS",
+        "courseCredit": "52ecf09d-d171-43b3-892b-4608ee4e1d5e:number:4",
+        "gradingBasis": "e3f7c6c5-c760-49e3-bf49-980ed4ebb44a:string:CSU",
+        "includeInGPA": "72275a6a-c70e-45c0-8b89-239506280589:boolean:false",
+        "reportNo": "1e8aac49-78e5-4b71-afcd-9fc5e8718f05:number:1",
+        "semester": "464a08cf-27f0-40c6-bf83-1e4848448d33:string:1410"
+      },
+      {
+        "name": "ab29a65c-96e8-47e6-8c40-b40e5c6f3545:string:Legal Analysis, Research & Communication",
+        "courseCode": "0c911b46-ca63-421a-ac40-11d2a656d115:string:LC1016",
+        "grade": "d37956d3-c34d-4459-a652-f87374a43670:string:IP",
+        "courseCredit": "5e6ad004-9163-4234-861b-2cf7a583f869:number:8",
+        "gradingBasis": "906d7154-b2f9-46e1-85d4-68cadb835527:string:GRD",
+        "includeInGPA": "1ed2f813-162f-475a-a45d-d74e7045e2e7:boolean:true",
+        "reportNo": "9991759d-599a-48b9-8b54-c19362f38098:number:1",
+        "semester": "2e6a06dc-e769-47d3-9bd7-beacb7ebdeb7:string:1410"
+      },
+      {
+        "name": "487adbb3-fa65-4ed5-b6c9-6304d92df865:string:Pro Bono Service",
+        "courseCode": "2e37bd97-8932-489f-be1d-135d396ac676:string:LC2009",
+        "grade": "cc99b146-3313-46c5-bbd4-d7ad8ec2e461:string:IP",
+        "courseCredit": "da8fa2a1-c735-4195-aa87-9af98a8a8de9:number:0",
+        "gradingBasis": "91278986-8aa6-4dfc-b3b3-f0df0c699fbe:string:CSU",
+        "includeInGPA": "7c652138-6dd6-435e-b7b3-cd2d64c367a8:boolean:false",
+        "reportNo": "d089b8c0-7162-4b80-aa42-f886f9c72fbf:number:1",
+        "semester": "8e17dda0-c9cf-4441-9642-281ba08e56ab:string:1410"
+      },
+      {
+        "name": "c39cb430-8c4a-42cc-8568-aa1b736b2819:string:Criminal Law (A)",
+        "courseCode": "7df9729c-523d-465b-9edd-b77601389816:string:LC1001A",
+        "grade": "28dd8277-3f1d-4da8-a402-6c6542133cbf:string:B",
+        "courseCredit": "d094ada4-0a3f-4e3d-bae9-d744f7744b7f:number:8",
+        "gradingBasis": "a9033707-380d-4b78-84b5-cfe489b7df05:string:GRD",
+        "includeInGPA": "1c5e6772-0acf-4a02-913f-f763b12d39b3:boolean:true",
+        "reportNo": "7e62b9ec-2560-4778-8f14-1da68b328a8c:number:1",
+        "semester": "998721ef-93ff-46cb-8a6e-54bd8745eb67:string:1420"
+      },
+      {
+        "name": "7407a1dd-e475-4b57-8f61-83d138dc0943:string:Introduction To Legal Theory (A)",
+        "courseCode": "72760f9b-2f57-449e-a3eb-73d17edf0d4f:string:LC1002A",
+        "grade": "f40a5395-701d-42ee-91ab-1de1685f3eca:string:B+",
+        "courseCredit": "00136839-16d2-48b6-a2ff-10fcd543816f:number:4",
+        "gradingBasis": "8606e16b-e1cc-4fff-a10c-9faca1f18ace:string:GRD",
+        "includeInGPA": "adc91333-a7df-4bdb-80a0-0f9eeeab0e6a:boolean:true",
+        "reportNo": "5b059507-a43f-4912-9911-7aee80630110:number:1",
+        "semester": "768dfd5a-3473-4d57-b919-541710b317f8:string:1420"
+      },
+      {
+        "name": "c39d8d24-a2be-4526-a155-05d595f2e336:string:Law Of Contract",
+        "courseCode": "19589fb0-e46f-4ef4-9002-67ae051a96bc:string:LC1003",
+        "grade": "6118878a-1396-4524-ad1d-3d472bc517e2:string:A",
+        "courseCredit": "bac0c5f5-2315-45c9-bc1a-9d72f2f2e40a:number:8",
+        "gradingBasis": "31ad5003-abc0-4a1b-847a-d4e7d033aa3d:string:GRD",
+        "includeInGPA": "81716b68-8178-4aac-ba8e-95d830942259:boolean:true",
+        "reportNo": "cda009e3-4ea5-47ff-9fc5-77f91e4d91b6:number:1",
+        "semester": "9ac4943a-debc-4853-b96b-f97557feed2f:string:1420"
+      },
+      {
+        "name": "c3c1b179-7131-4ca5-b5f8-9514c5c3c3f4:string:Law Of Torts",
+        "courseCode": "0f15ade5-bb4c-439b-adbd-c6e280eea33d:string:LC1004",
+        "grade": "11bd92ef-990b-4249-ba93-597361c2d101:string:A-",
+        "courseCredit": "6e2bc13f-c070-4db6-9dad-61555e957c85:number:8",
+        "gradingBasis": "c7e37053-a1ba-45d2-89b1-329e5b5bdffb:string:GRD",
+        "includeInGPA": "168e3943-e7c8-40a7-b38d-e7623f98e64c:boolean:true",
+        "reportNo": "5078db68-7d02-419e-accb-73f7764fefda:number:1",
+        "semester": "2e60ac3a-f210-469d-91df-322012edf400:string:1420"
+      },
+      {
+        "name": "7d45e2da-e4e9-429f-8a45-6eba8a31a40c:string:Legal Analysis, Research & Communication",
+        "courseCode": "13113109-1fcd-460a-8ab1-8d36c677f388:string:LC1016",
+        "grade": "e96e54e7-de41-42a1-b840-5693bca2034f:string:A-",
+        "courseCredit": "bb26871b-f777-41b2-a072-5e36a498135b:number:8",
+        "gradingBasis": "26bd8435-0f9b-4785-b7dc-37a2b907e6ab:string:GRD",
+        "includeInGPA": "c5c85bc1-8be2-43a2-a8a1-4a887c7d206e:boolean:true",
+        "reportNo": "63b60c06-4bff-406e-82cc-4c5ea0669e0f:number:1",
+        "semester": "00408adc-e059-4169-b478-5a0e53ae9d2f:string:1420"
+      },
+      {
+        "name": "170d8512-ad59-4244-99df-8dbb9a55e7be:string:Pro Bono Service",
+        "courseCode": "a2f4f473-c62d-4aa9-9b25-5d6d11545b68:string:LC2009",
+        "grade": "2785f0b7-05ae-480e-b42e-06b90892bc52:string:IP",
+        "courseCredit": "35b9fe3c-b4e0-4437-8e09-c8d0518ed4bc:number:0",
+        "gradingBasis": "7065f207-df3d-4126-a3ef-2fbf7fb4b2e4:string:CSU",
+        "includeInGPA": "264e1390-0778-48b4-bc0b-1263b23a1b30:boolean:false",
+        "reportNo": "59f57036-bba9-4006-b2c7-8a55761168e1:number:1",
+        "semester": "6609b9b8-6ac0-4e30-80fd-1cbe7ba5045e:string:1420"
+      },
+      {
+        "name": "6fa346f8-a841-4dab-be9c-8adc2c452490:string:Junior Seminar: The Darwinian Revolution",
+        "courseCode": "d6e980db-a92b-4161-804d-a60be9b21772:string:GEM1902B",
+        "grade": "ae66e85f-8299-44cc-863a-c5c1f5b2f69c:string:CS",
+        "courseCredit": "63f0da94-ef35-4195-92a5-b61794fc93aa:number:4",
+        "gradingBasis": "e47b5379-463a-4af8-8c92-691c5546a6cf:string:CSU",
+        "includeInGPA": "dd9e9cf6-ecbc-49e3-bbfa-1d20ca68ffea:boolean:false",
+        "reportNo": "d4ca77b0-d65a-4acf-8170-9603ba1717d8:number:1",
+        "semester": "915c9b55-ad41-4868-bf69-7de7da50a73f:string:1510"
+      },
+      {
+        "name": "97b30072-20e9-4e14-acb5-498f8f8cc202:string:Principles Of Property Law",
+        "courseCode": "8ef2c6f7-8a1d-4c09-90d7-3ede291e2f14:string:LC2004",
+        "grade": "6295dd28-e27b-4dd6-aa1c-60ef2111a26f:string:B",
+        "courseCredit": "025bb45e-9bfb-4938-a2be-4070b83ba419:number:8",
+        "gradingBasis": "bb5ee70d-0f45-4f81-96a0-85b4cfedb49c:string:GRD",
+        "includeInGPA": "c19b3eb2-1680-4ed7-a8d9-51b603f56260:boolean:true",
+        "reportNo": "3435e4bc-5078-4a06-913d-846390176efa:number:1",
+        "semester": "70c855c8-b52e-41c0-919c-8e439f75b956:string:1510"
+      },
+      {
+        "name": "45250b71-bce3-4ff8-91ba-112461432973:string:Company Law (C)",
+        "courseCode": "cd81dcf7-166e-41e3-8f32-82ea45f1f7f3:string:LC2008C",
+        "grade": "c03705ce-595c-4113-a35b-198850f02c92:string:A+",
+        "courseCredit": "e3cba03d-1e51-4cfa-ad93-fe2f65a1b691:number:8",
+        "gradingBasis": "a29868c0-cff8-4ef5-aff3-9765b78ff948:string:GRD",
+        "includeInGPA": "b1520cad-1ce5-4236-a883-d2285914e5a0:boolean:true",
+        "reportNo": "b3e8ee3e-d9fb-4c19-9005-30c611af475f:number:1",
+        "semester": "232f4227-af04-4b02-a69e-3d9421d72695:string:1510"
+      },
+      {
+        "name": "6f44aa0e-8da2-42e2-9d17-38faca4c8244:string:Pro Bono Service",
+        "courseCode": "875f6a6a-48ac-4ca0-8ebf-7bb7cef91323:string:LC2009",
+        "grade": "962afddf-4ce9-4e18-944d-408d0e7faf61:string:IP",
+        "courseCredit": "5f9b27d8-6118-4fe1-a3c9-2a8d807826d7:number:0",
+        "gradingBasis": "8d5d93a1-5bab-4752-90e8-f530916ac827:string:CSU",
+        "includeInGPA": "7fa6afa9-a398-4e6d-be32-c44b6eb69712:boolean:false",
+        "reportNo": "7aa9f27b-13e5-4bee-bb62-2c97d23bb68c:number:1",
+        "semester": "4c3ddf9f-a09b-4b0c-9b7a-86b19281d17d:string:1510"
+      },
+      {
+        "name": "442d218f-bfcc-47d4-922f-1e6af8727c30:string:Equity & Trusts (A)",
+        "courseCode": "5017a03b-fb8c-424b-9ac9-631eb3592627:string:LC2006A",
+        "grade": "14ad638a-0d25-4be5-9def-6af7b9002b83:string:A+",
+        "courseCredit": "26aa5182-9337-42bf-a575-2aa291fb9049:number:8",
+        "gradingBasis": "dea13a56-4fe6-4f88-9961-be7db20b874f:string:GRD",
+        "includeInGPA": "2b638dcd-62a6-4b69-abd2-c39a6db0ed9e:boolean:true",
+        "reportNo": "1610df83-0fcd-4755-89ce-7a9c27d34b49:number:1",
+        "semester": "d3a937ce-36b4-4f08-801d-9fd539eaf48a:string:1520"
+      },
+      {
+        "name": "6899e5e7-45a7-4b6e-9b35-0d500a7ce217:string:Constitutional & Administrative Law",
+        "courseCode": "0f0cd859-6e5c-4334-906a-e7c749d2f98b:string:LC2007",
+        "grade": "30cb31a0-c997-4d19-940b-cbc7c3189103:string:A-",
+        "courseCredit": "862e5640-8323-4fc9-b26b-1078d5e7d133:number:8",
+        "gradingBasis": "a5d1697b-e960-4053-ae58-956fbc5b6d10:string:GRD",
+        "includeInGPA": "19f9712d-74f1-4ff6-8f30-518ad177b931:boolean:true",
+        "reportNo": "4baabd76-3c4d-4ccc-8a12-254fb66a76f7:number:1",
+        "semester": "5d336fbe-db0a-4d46-9ec6-b0b1ef709ba3:string:1520"
+      },
+      {
+        "name": "3ae0e098-eac3-4294-8723-9e6589ad82dd:string:Pro Bono Service",
+        "courseCode": "3f9d5b86-64cf-446e-bebd-13201c246915:string:LC2009",
+        "grade": "51e42124-5a1b-47d4-8477-f8ae68a1eb7d:string:CS",
+        "courseCredit": "6cadd38a-346b-40b0-9d64-af1f3ed9b8c2:number:0",
+        "gradingBasis": "60a2f3ec-0542-480e-b3f9-b1cbedd41442:string:CSU",
+        "includeInGPA": "f417ad5f-0a89-491e-823d-fae03b122675:boolean:false",
+        "reportNo": "3c586015-4ca6-4b9d-b849-314e7c518cee:number:1",
+        "semester": "ae7da6bd-d3f9-45ef-ba4b-068d35942076:string:1520"
+      },
+      {
+        "name": "85b9864d-5ab3-41ba-8265-bb0fa45c12dd:string:English, Singlish and intercultural communication",
+        "courseCode": "072aa0aa-b5e3-4bed-b79b-bb0775e269b1:string:UTW1001Q",
+        "grade": "5db5bb6f-8dd4-4423-9710-fe664dd44ff7:string:A-",
+        "courseCredit": "4d1f71d5-f2df-4b54-83d7-879efcabfba8:number:4",
+        "gradingBasis": "e633cea1-1c68-4875-9d03-b92f267c8a67:string:GRD",
+        "includeInGPA": "b6055502-0fde-4344-bcfc-3d17cb187a50:boolean:true",
+        "reportNo": "329f22cd-6c34-4c24-9af1-dfdfeec7afb1:number:1",
+        "semester": "e74504ea-8a6e-431a-89f5-f6718d425eb0:string:1520"
+      },
+      {
+        "name": "fb7716f0-93de-4769-8115-188520a45f83:string:Legal Systems of Asia (A)",
+        "courseCode": "121a36cb-0e33-4ecd-9e6d-07e0c71d544e:string:LC2010A",
+        "grade": "c94365d3-f9fb-47e7-9abb-293727542895:string:A",
+        "courseCredit": "94ea810a-7c92-43dd-95cf-e533a0496afe:number:4",
+        "gradingBasis": "06718299-75e9-4abc-953f-83fa148ef9e2:string:GRD",
+        "includeInGPA": "cd91f2f2-82ac-4eb1-8f47-a0c8eb8f4aed:boolean:true",
+        "reportNo": "3a4c4767-d6f3-4d91-a990-bdaeba58b9a1:number:1",
+        "semester": "58d6d70c-05ee-46ea-ab04-276163ea9a41:string:1610"
+      },
+      {
+        "name": "8e53dfa5-d536-40e7-88ea-afc298b3c480:string:Evidence (A)",
+        "courseCode": "9e452868-bf69-4631-ada4-b69a3c9c43a7:string:LC3001A",
+        "grade": "3c07c802-04d7-468b-8dea-6a3ea076a7ee:string:B+",
+        "courseCredit": "7171fdd7-426b-48e5-ac02-7bfe87383908:number:8",
+        "gradingBasis": "d258ae59-cc05-4e17-9b2f-68f13c040cb3:string:GRD",
+        "includeInGPA": "b6df7776-4070-400c-9211-0b0df66e06e9:boolean:true",
+        "reportNo": "03303167-4d91-412e-814a-776d6916206d:number:1",
+        "semester": "d99417e2-e66c-438a-a5ab-810895eaaa23:string:1610"
+      },
+      {
+        "name": "8f295a5e-7e1f-4088-a6a6-df65448b8e09:string:Admiralty Law & Practice",
+        "courseCode": "c9d378e9-b161-42b4-996c-982821b4efdd:string:LL4002V",
+        "grade": "a27a9712-c324-4efd-9bab-7ddebcb79e36:string:B+",
+        "courseCredit": "33ed191a-8485-4429-be92-eae51bf3373a:number:5",
+        "gradingBasis": "14aa3160-3ec2-463e-b47b-215f4a92f5f0:string:GRD",
+        "includeInGPA": "51f99a68-3f53-4bb8-b394-ed533d435f0b:boolean:true",
+        "reportNo": "f716cd5d-0b26-489c-98ec-eb30a90df540:number:1",
+        "semester": "ee236b5a-dd39-49c7-bfaf-3c33fdf87c7d:string:1610"
+      },
+      {
+        "name": "68a6ef7d-2cae-4417-9c04-d13d72ca8669:string:International Legal Process",
+        "courseCode": "58f12938-ca18-4b63-af6e-443462cc0cd8:string:LL4033V",
+        "grade": "ad337a65-a5c2-45d5-818e-ee676ecae4e7:string:B+",
+        "courseCredit": "806c8d9b-9990-4362-a411-47d36f2f8939:number:5",
+        "gradingBasis": "0548d5d7-4bdf-45e1-9a0d-95a62461b919:string:GRD",
+        "includeInGPA": "533e1bcd-d7b8-45bb-8a19-f1c83831708b:boolean:true",
+        "reportNo": "4bb5bffd-861e-449f-a0d1-fa2007338786:number:1",
+        "semester": "d04022db-d1c6-424a-a1de-49fbdad162df:string:1610"
+      },
+      {
+        "name": "5a52749f-a5a0-4deb-8cf4-b1248eb00bab:string:Trial Advocacy",
+        "courseCode": "1ed1a8e5-6afe-40e8-b5d8-51c5da523709:string:LC2012",
+        "grade": "990a8989-4257-446c-b347-60ae576d88a5:string:B+",
+        "courseCredit": "fdb2a28a-e0c8-4ff9-9a5f-30fe8ecaf09e:number:4",
+        "gradingBasis": "f6966c68-ed35-44a7-9d61-7c56f2caba75:string:GRD",
+        "includeInGPA": "0863e1a4-b269-4713-9b6b-a2d6339a5ba1:boolean:true",
+        "reportNo": "568f6e2d-d061-4334-8f1d-25d361033e1a:number:1",
+        "semester": "10fc4741-3559-40da-a6ff-e693c4659e5b:string:1620"
+      },
+      {
+        "name": "afab827b-5559-4fe3-ba25-ce848a312f35:string:Credit & Security",
+        "courseCode": "98e3d313-9285-452e-86f3-efc27ac00ff8:string:LL4019V",
+        "grade": "0dcb7504-8d7c-474c-984d-69d38cee30dd:string:A",
+        "courseCredit": "dcdfacad-3c05-4a62-a78a-b53320ada76d:number:5",
+        "gradingBasis": "b433ef59-4b5b-4a49-a712-707cf99b3781:string:GRD",
+        "includeInGPA": "aef8828b-d7cd-4ae7-ac6b-8bbe63f5a464:boolean:true",
+        "reportNo": "dc20a926-1a33-4e0b-8766-29996defef58:number:1",
+        "semester": "b073be87-c7ca-409b-bd0d-6f8be39698a7:string:1620"
+      },
+      {
+        "name": "252223bf-41c8-426c-a5a6-4e02dfaef785:string:International Moots and Other Competitions",
+        "courseCode": "44fbbfd9-d802-4040-9e2f-94f7da5c429a:string:LL4203",
+        "grade": "dad97e66-621b-4058-a266-74e5eb30acc8:string:A",
+        "courseCredit": "96b06282-7bf4-4ee2-bfc1-66acf3ef7b7a:number:4",
+        "gradingBasis": "3c5bbb88-5bd0-4b72-9255-17db47bb4631:string:GRD",
+        "includeInGPA": "d4325875-082f-4211-a732-9a0b0152b6a1:boolean:true",
+        "reportNo": "84385f78-6d1a-47ca-9429-c0b26937adf6:number:1",
+        "semester": "642fbd9d-bac9-4488-9677-6be2ea52b9d5:string:1620"
+      },
+      {
+        "name": "f2848591-6229-4802-8c81-4205ddf7fc50:string:State Responsibility: Theory and Practice",
+        "courseCode": "dc21a85c-aa62-46b7-aed8-9225618a01e8:string:LL4292V",
+        "grade": "4ad8cc08-e65e-4dc9-827b-3104e9a9e191:string:A+",
+        "courseCredit": "0bc86c63-34a1-4eee-aec9-9e1bcce7cf96:number:5",
+        "gradingBasis": "ea6baf37-5a02-4211-b915-e90d7fca2da5:string:GRD",
+        "includeInGPA": "2c754bbd-4f97-42b9-9d01-617e2e605252:boolean:true",
+        "reportNo": "4a42de2c-ed33-4360-8aef-94dd696c8b73:number:1",
+        "semester": "ae8b6ba9-c821-4bae-a8dc-09a001d17770:string:1620"
+      },
+      {
+        "name": "77bdede3-b39e-4341-b694-754dbd4f36e5:string:Carriage of Goods By Sea",
+        "courseCode": "71c0181c-1ee8-4dfc-9d54-24949c784320:string:LL4008AV",
+        "grade": "88603553-18be-4f9e-8a45-dace90c89444:string:A",
+        "courseCredit": "ee3190cd-e5a8-41cb-92c5-65e9758d6436:number:5",
+        "gradingBasis": "5ba1a00d-108d-4174-9b37-164499c6c5ef:string:GRD",
+        "includeInGPA": "3f951882-00ed-4509-9fca-a53495635b80:boolean:true",
+        "reportNo": "697f44fd-96c8-41d1-a689-0210e27bab18:number:1",
+        "semester": "28a13d5e-57b4-4a3c-aa91-02c168b0a24b:string:1710"
+      },
+      {
+        "name": "823c0164-b62b-4260-b08e-9e9669d858cd:string:Chinese Legal Tradition And Legal Chinese",
+        "courseCode": "2fcf1c71-6664-44f5-ac8c-a215a3ed6832:string:LL4009V",
+        "grade": "7e888954-067a-4c0f-8025-070ba01fd590:string:A",
+        "courseCredit": "b4ec0bbe-e88a-4f0b-b02d-c834581d773b:number:5",
+        "gradingBasis": "ac25d104-e835-4c57-b78d-54feb1afb8e3:string:GRD",
+        "includeInGPA": "3e47b254-f1dc-4a65-bf74-aa57d7061271:boolean:true",
+        "reportNo": "8028f69f-5825-4b47-a977-c8faf95b5570:number:1",
+        "semester": "2ddef486-0832-4b07-9315-e88f362af854:string:1710"
+      },
+      {
+        "name": "66062bef-c1ec-4028-91dc-fa004ed8471a:string:Principles Of Conflict Of Laws",
+        "courseCode": "8c2c30d9-5afd-4ec2-b049-1858ae19f288:string:LL4049V",
+        "grade": "8a9f1e39-4ce2-46a3-85e0-01d168a69dfe:string:A",
+        "courseCredit": "60d346dd-2b1a-4026-b2a5-e1e92248b62c:number:5",
+        "gradingBasis": "022f8d0f-12fe-4698-afd9-5d716733ccec:string:GRD",
+        "includeInGPA": "d9bee259-2f42-47b2-a57f-1800efaaed29:boolean:true",
+        "reportNo": "be28f695-db8a-4e11-80e6-a7b33100a6cc:number:1",
+        "semester": "745dbc99-408a-4a00-9348-8fe4db083c82:string:1710"
+      },
+      {
+        "name": "b796720a-1dd7-4586-acb5-d3d71eba9576:string:Restitution of Unjust Enrichment",
+        "courseCode": "f42062ae-8483-45ba-a450-95205e618039:string:LL4316V",
+        "grade": "b9bd1ba9-b5ff-4ae2-8a9b-0c499becee6f:string:A-",
+        "courseCredit": "091c39ec-59a8-4027-a516-9e028e14f72d:number:5",
+        "gradingBasis": "ffd7d2ee-eff5-4b91-9569-3f3bff5c272d:string:GRD",
+        "includeInGPA": "c12a2b74-7871-49c6-b6b5-ca584f96ce16:boolean:true",
+        "reportNo": "b2d1a2d9-f4aa-40b1-bcc6-a0383b2d078d:number:1",
+        "semester": "d0dbdc74-f508-4e5b-9a1c-844fc5766498:string:1710"
+      },
+      {
+        "name": "0cead4e3-7da0-44b8-be17-1d4e5d7eb1e6:string:Charterparties",
+        "courseCode": "2ac0ee10-bb78-4833-8965-310244b4631b:string:LL4008BV",
+        "grade": "1f531bd8-40ce-443b-97c8-5e53bd8a69e7:string:A-",
+        "courseCredit": "4d06808f-6a9d-4584-8e32-e4953e60cc85:number:5",
+        "gradingBasis": "9f7accf4-1806-40d2-ad28-5bb0754849c9:string:GRD",
+        "includeInGPA": "f008e67a-3cd7-49d9-85d6-4b7657349077:boolean:true",
+        "reportNo": "c536835b-4aee-4ece-aa20-b06cb961a4b8:number:1",
+        "semester": "c702be4f-a721-4e52-807a-acb1c0bdac80:string:1720"
+      },
+      {
+        "name": "1ef053a5-60d4-453b-ba4a-55abc9c5af17:string:International Commercial Arbitration",
+        "courseCode": "e06875e0-feea-4b20-b11c-35c5b7e5ebdb:string:LL4029V",
+        "grade": "cdef3cee-a8d4-49c2-8f34-df99e37b2767:string:A+",
+        "courseCredit": "9d2237e2-0fb7-4a30-b4b1-2798e7096cfd:number:5",
+        "gradingBasis": "21f90b0e-20fc-4bc1-ba48-323c1ab4b440:string:GRD",
+        "includeInGPA": "2791c570-8050-4484-8b1a-9f472e3fd410:boolean:true",
+        "reportNo": "78bc009d-0a30-46d8-beae-6ca380a5af15:number:1",
+        "semester": "06941582-f3f4-4d41-9682-0db3ab471422:string:1720"
+      },
+      {
+        "name": "c747d548-5ac1-4c69-8cec-4f7c383d8586:string:Fair Use in Theory and Practice",
+        "courseCode": "486e62c6-ed87-46cb-ab2e-bfb32578475d:string:LL4332",
+        "grade": "32c04814-1d7f-4413-9dde-33bcc295f3c9:string:B",
+        "courseCredit": "7b8fd9d1-fcd4-45a5-8e01-ad4f08893d01:number:4",
+        "gradingBasis": "5f68072d-7fed-4c86-b41b-37b418be1517:string:GRD",
+        "includeInGPA": "aee50d7e-5be0-44e6-b875-4782dce8cc56:boolean:true",
+        "reportNo": "899d4f9c-01ec-4e54-bca7-4d7511a84e9e:number:1",
+        "semester": "ad9779e6-8680-419e-ac75-424bf3dd482f:string:1720"
+      },
+      {
+        "name": "40c7e8eb-5e1a-4969-8c62-2ca4caa37a95:string:Corporate Insolvency Law",
+        "courseCode": "5ac45f27-9558-4835-9ea6-93134f1c9fc6:string:LL4402",
+        "grade": "467b2e64-7ff1-4f9e-b6b4-d5db236a00f4:string:A",
+        "courseCredit": "47fa53fe-8c3d-4e62-afc2-66996d299836:number:8",
+        "gradingBasis": "a7dc615d-f79f-4ed1-8788-ad393c4a2029:string:GRD",
+        "includeInGPA": "1477b863-5fd4-455c-954f-fc40dca3f42f:boolean:true",
+        "reportNo": "33ef8326-c725-4b74-b149-fdcb3e0096ae:number:1",
+        "semester": "c9b7c114-0c61-4fef-82a1-27b507ab2621:string:1720"
+      }
+    ],
+    "additionalData": {
+      "degreeScroll": [
+        {
+          "degreeTitle": "580e1d95-bd8c-448f-8f74-12777d9371a4:string:Bachelor of Laws",
+          "dateConferred": "53b1b346-081a-47bc-b512-09a5eb0cd8b1:string:2018-06-30",
+          "honours": "cb25b32d-5a4a-4b9d-93e5-ceba378297e7:string:1st Class Honours",
+          "major": "541c8205-6e5a-47c7-97dc-0c5d347d804f:string:LAWS (HONS) - 4 YEAR",
+          "degreeCode": "793643d1-33b3-47d4-ae69-909784fe8465:string:B071000",
+          "type": "5c032155-4854-44b6-8e64-a3e71b40cf5b:string:K1A (GENERAL)"
+        }
+      ],
+      "images": {
+        "PRESIDENT": {
+          "data": "9b5a9a0a-fcb6-4862-b27a-413c6bb5ea08:string:data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAACvCAMAAAB5G7P/AAAAflBMVEX////6+/vt7e7y8vO5u71EREVJSUtPT1G/wcN1d3kjHyAkICE0MzTKy83i4+Rqa25UVVfc3d6pq62usLN6fH86OTuXmZuztbhkZWfV19iLjZCFh4lgYWQqJyiRk5bP0dPo6epwcnRbXF+cnqGAgoUtKiyhpKbExshAQEEuLC3QtkkmAAAABHRSTlMAAAAAs5NmmgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAEgAAABIAEbJaz4AABftSURBVHja7V2LlqpIr24QpKGgBS8IXtH2KL7/C55KUiAolyoQ6Zn5M7NmzXYjlCGVfLnW19d/krSxF/DPIMOcWt9jL+IfQLbDmON6Yy/jr5NuO0j22AtpXOQP/jPqGmbEJ8cPxuZGFRlzToul667g33AxHq88wSdn9ecYFaxtm8HSWEaOEy3icQyPbsJKXFjPfGzGlMmImJNTxif4X3sUqdrgw7c7voBwbNYUKYgyxjhsz/nkMjfnm7n+PKsMoZ58vp7D3wFT3lIIkOsbXhx4xyA4JrF3MgWrTsM9Wv/yDhv4ZxMWXofuw2p8XTtzRv2OzZ6Mvm2XNtt2/qQ39e+IOLUdQqZ+uN2wp76b7XbzoYxADTDX+Ppa88+jsRlEFAi4wuy44m8nF2LVOXnvU/Vga/vOE7FF9rf4x0gHRnHBGptFSAufXqddC4B/YRe897V688h1Xoixmfj7Df6JCxQw6k9IlH7BJf6fbTRcZID6crdvemRgcBDCnIeJ9WeRPbNRKQkQrgMXXVzS4m/oKFRBzDVbkArKlGPI3bOJNGODSE1wyTSnhkeSnOAOF0DAYPmGAx01vtUzCBFcJ20XHlBl9HzaMV6aOTrjWs8OdT1jQTDDj4Ut2QEv6eUt/gCO0kN8uaYhYdG2cGUf05eEyweIdc3IK6lED3EIO9EDEJSL1/IHJCo4QxDD+W0Vp2ztjHVllHH1TYH2+X+X16B8Iz1EcMsyDWUhIMkYNbaOQkjHpBcBWyC33krPCQ6nh96OtvELCJlEJGdb8cp0xFCCl8bYEmUQKpDe/jpcP1NeMeCA3L7Z85+qlRCf3HkmZnNg1IH+X9uOrKMClHX/Jv+NBewapWBjcFzYbqa8zehUaTWDufCd1vlHS/ijCADzLT+qRCUoTysFPvENwUk+4MGRt5vFalzT9mrU29FERelMH6/Agz9Hgjc/Fr/BdTQ+HZFPfqL0pQgspKQ6Dwx/hZLC/3O+BHXf4sykkM62IDPwHJbJFxrA0YLmHvkkijYMsJQpAzr1qw3bFLdcap5yHuj60xODPemuaZETKLlmfgm/jTlWhBP1MlMO2c/h17fr1fnBFMibReE1yXnj+alpltygtSkuKzEi2PNPL/la78w5j8SoAPddJAWfiqQBvLk0XqIH611m4qazdVEHb8n4bfIPbjYJ3TPm2JY+i9l4jJrDgnc/6l8EHjSFhSff1kpAAT/8LV94yTwXEZ3T1+QWs+mTfdDPIhBFFHJujpSFWaOO7fBsDYJp9YsOQkt4KKa9fGan8YilmKCQ5iYJmHl9tvxH+Itd/umS83OXjMEnHRbSLfkK2G9Xwyh9Y4qExK4CCXjF4JP9pW/FrjNfQ4XfeMmDUaBNR4FRS/bwoxTpWGuBvJ3YcyyqMou6KXxhuuj3JGzisuJmIdzlwb9l59X2pLBHvOSHVWIaz45EGG43P1Y/lHakkcTzLNHDEYBdiV5BhMzHbWZjMQrwm3ns9l2wQO6zEHhLV8hHbfTvRroJxcTLrKJbvYcRuizzvXYDIRwj/2lk2rQLJQCzy1rl116RhLjbY1L3PcpOoB8SHEQCbFbjPXlwvwdnbvAGRqj7OXZXUJyunFFFmBrMQ4rqMnPbIKRo8diGq3gvJKXuWmHDMxz20HMLfvt78nlGGQCu467f9kuAUw+z7GhkNIJXzIalAXfshIJyG0TkwK8x89vpsFFnn2cUepibrt/2VgXfQv+d0s92oxaN56ECO+tGnotuilmgQ5mrqB9Y8OXz+fxfWGdHTf71teE/M6Vv64YlEilR0vY1G/fmfE18YtPG52tQavCQqOTujKHLv50+GgpDx2f8vzBL8YbHViyoW/xr94Mr+DRvFg8dLnqEn8DOpp8PsoCycDv4eERogLizqs8tMnRmKBNzuQJ77iL/ErZFCidQBPGIdUKaaASX+Mwfe+j8bYB+LIiXQprMUE512AJf8mfP2h8OicZCUBjS2AMW0tQuwukRAwOBYpcL2Xc23ciGOt0cicu8IwgWFOIul9bAzgCEOqZzshdVDSNAwGahdDDrlPkscp7tjuMXP38HgZknjD9IE4gadEnMIRFqRPNuKsT6YxE22MRyEhiVQq9BL9jXlbb8Z866fjmIsiBJ1G7octIuFC+YykqFxtUoe9hlUBYs+TCfYr7m7mLsC4/uooDCblgoxnXOQRoxeim//sEowOW7T8PNDUeIftcvL5FP218VsGpn2smXB0I3gFu56xCnbARdHjlFJKdASRhRaOSs8G5145ztVbaU36sGMCqXqA3IsEqO9h0EkFf9ofo1zOIijq/Ap4dK46h8Lf+9jVOoXdExRv9hPn2tAfApfyt4/F52kDc/Ipri+BbsPAXoxl1ilmbQA8oj2O7TjIIQh7qbd8zL47iGYzP7dMBsr64nDUDKE1U8ThRz6MZUkDXEDvzsDxi1/vTOC1adUvhBoemDUJSZplEYpWbtzxdFYY5jf395e0UX5FIwc3rKH/nxfiFDURkLSl4qwXOu1XDdiwQshRjm2nkUOkkRWI2sjuXq9AmedaV5R5uHCpXrGcae+MSi36qXfc3KfVGhGY5UtUJOmvl4nxN4R2bnWEdHgrrtTmhzvYIY9kELYmM2E3uKcpfcyz2ty2KlG6KcwKLIgo4BB4Wia4xGCeA0d8ewecAot0OZeAhcyS1P4nnHo3fMW/og31kMf2/pQ/dUrMVUQRUQ33SEOwrWR8kQvIXmWXBSjdZk5J9yAbviFryfMtQQXyjq9EjXo81cqsBU68EocAbYxxNVh07tiQbVBzyp7RgTnmaGQx3XBmWlidwBM8vxSeeUyD9Qe7R7JlOnS23tOxilnFQIsSr8ZetAFIJtNd0IU8GqaXgLdhTs3RVrohAIqVT06lBZRhV6C2eU4OZBtaCXL/qEfEqTp88xT+Lip8eZCCo4LpaycK6WrgZGqaUGZpnVw+Luz8fsoJrEVAyAzQlcv/zOhBWs0SQs4ob7UzwFGHVWemyOo7D3xkk+zihuatsTcCVaU3nKqzxgJefjVRt5d6L50skGRYa+EqNsgcyhVIOtPp/51JUqxDkFJ0RLVc7h6Wk/TbK4k7l95slWWaKWQqJw5MHHQ3ZkvlQYpZPkmxVGx7uXlOzPIdPoUGT21KaFEqVkQ2DrnTWR41p+nE9Y+aDAKI2ajC9VPgpCq1zSDgKsmz5B8qjEWnRxlbzaGb0erGTsUmbal6LXIuUGCsi/qw7KoKyJnScEjzNO+/qmOqlikb8OUEitml3Eo9D1iUao3OS/PJXe8AFJR3VcMmYPt1Wk1l0bQ5IJNSdbhcIBl99HjVFgJ82vBG/76UgUMorrX9n3g6MrGLtUX48YEndxctiTaso5uiB1lSPMgMNHppYb4HuOTZPZOGCTr3jKFa2cRGk3svZ1IZmLCIJrl5TqfqKC5HnUspGZREiiKGLG24o5UyhOcvYfz3vCD+B7QJJRuH+Y79XIXwK7DeD3RWincmBNn1EtFP0pSBXDdpxRKWSiRzJ5uAce7UpNNKH8nVXL1O87OGNfP3Sdc3nps507j+rnGCr01HQUMAo15HQMgfo6ckbJoLcMPtUv8hv2lnEkZZRWtV5cHzsXxU+xh+ssSrHHmRj1zV+thLFdkIppSi8dkD93Sh5Us55abZBTF3VG2VTaP87EKqzdbpUofSHeZUMiChvRUuSTuam7jpsDfiOwfVv1GOUC39UYBdPIA19CojYk9I0ZCEodYJKlQYdgFxaghq26ROHO7V6c1JNAWbRIlBFBHQmbNmdqwsytOzWiQczIcU5hN1aitFScNWKpfaf45M4lz8QFDg92jRL1Q/moluYPXUTL07bEV2IDp+ZXZfNF6OTpLWhPrch63U/Rty7rlQi8ceTXKFFhKtONPaG5mO4maX2iNgNObcC3vSq4bDq52GVrkuwsq5BD1AyrztzYWHjcY5oE+BJNOEq0XsybhS6c4lUnqdiudgFOuWoGLBAxwBJI3SD+fNRqhLV1HyGqz1mfObAzxuqd4pjk3Wx+9Z6oc3Vlgx+nrFMhkV5mlgezCisJhFbc0BbW52bubT7ThlBLH0ZF9RKlGzRo59SsBtdZfE66aZu7M8Qp6bzrgt4ER3IPRgVWFhc0vSTwsrjztgqbkKmZ98GqEX9+jVLdCN+28ftJ5tqpzO3VbMq9y3p7mEW8ryEInWvzIC8SYey+St0slVGZANBty7civQ9WDesinPjauaw3q6f1Y16Pc1LQzRRNl/0Gzri7IPjKrKqQp6zY4bGK2kaVnsG+dQ2SvGIDPls17o5ASIZp7BzF2lM0k0yqNPGGxYwcdcEGEg19ouhoF1ydMrGhwsTVWZjkii+LNVcHBBapGq7Fd45iLw2Ws0iBc5KdVVKc9SPkaZvAMMKsJ/JwsKWZr06ay15T22jHuAlvLljciBqDdfB15ODdVVwhjoJqV+dB+sAFFxE2FVW2BAyC7+XSXtqHhFJZbKDGdX3Pnreedk1JizcKsUFD1/Y+8AfafVW9i4DJFNnGqARTYihuuPNabLdXoPwzVQ5zSdOEMyoq6z8CT9NZI3w8UkCFUcETJL18VW2Jw6BmzX6Mt2NFnHkraKMKV3ECLy8aphQPWqPSIlC6UeZu1Vh/lCU30wX9TghGKRdZ3XCGa2PTmhiFkCtRLTtCwHErewJhHdN+3m8thcXqVN0T8yyaJ5IlAuvlQ0Qg6bZVtr+4eZldv8MRP3GE8vgkyKYsVptYBJYDafNDcd7JmkJKLe29V4p33pelm6hPxKQm9XoHaY1G9Skggf2TZk0NGtbTDDRIEV5CJhi/2FbAWjovYhq1ei+EPDbdZtUbFOs7VP/q456VkoPZ4w+ba9171EBzDpSlMXIvZUGKs7qwIKefA4FMu6gKQC//doC+dJSDW4V4kxN5JUp1uDjYaSB88CNqDPWQ7FhLE+dRgKdyFCzqOBHzh8D0+dVQGVgfy/y12l3nrc5pZ4KRehaW1xN4anYcRY2KVeamxk1ntxmrwqU+P8tNLKrSVf0RwA/+MIzSXO6r/ZA/5Vi/jeBJx1J4dn9WpZM76JJOXuepIiD35W1T5NNF2W+DQRfTYbw9bcYcV5xn4jcrBF00s7yYZpDKjp3QwdJ9Do7gqBZYjeT4hCIBkE8HwgebbJT4vSXqkZwopvF6EozmdqnBJvqZkV+ZSY++jkRVepep+1B4NRSjbmKGaNsUQBHJrCo7g4EynXvrNXKZWHqI42N8McUwwI5j/rgK2W8HcWLEERTs0LyzEzpbgc2q3jNIVI+pvRsRScoPxWLMNjrG2UA7DDKcM8sMtOXjogbPQcPJOz2KTOY+yzmFjmb3fDC2+b+fUbGYPtsG0mKbZhzX7IfvvpN3kkuUHeDBmNln61x7TZmpIT0Ukt4Wxr3RXO20LoZ5kAoETyZ6w37C0wssyzckJ5DUkHZnb3eLPSpd9RduS1nkldRrPT6RYlRgWdas/l3f8GyK3j9qsofpgm+tGhad0NwKtzAqwOGrbFevhKQYhaVoDarQuHPL17tKbAKS+c5GfwOTkCzlIFtj5VBAmbTrFAJs+yZWtjNqct3tnZarMMLbuzIaIj7vU1J6WIg7abum4idx3GbjcJBKRiXfJ/tEDmCyzrKVTezGya2qnV4vFHbFqlWUUIQ1S1hAbs+qYQSW1rMWlHV48da0BZbBsNV8vlgs0yw/2VxbrvtvODBvYkE5gvLo+koKRUVmFpP0UqemAEHHpL9zb8E1m2ftg8Pwn9r8kVHNOsiTy2A1E0wu6zDH4ZWMCEfT7h82VNs5Nb1oVBzR2uj8tPWSQxWPEHG3bCzMu/Y8wWTDGdV9AGRO+o7Qb+lswVP1kKHJ1q3z7p7WVmSU5lkOe+EUO4Dzu09a7gQXTfsZd33P3pBXJ9ecuWWN8rPnEvbKjnV5u2i18gxxxaxtXLtlTEr9acYm8xR/zWQKA46sNHesC02gVb7nEGGPHGD3+nzuKSCFFzhLqYZ8aNh6Ol3W6EgIlwlPNLaE5p7OOfC4XReLzWqHk5XBW7Radcetv+WDxKRaG+4TabeUlMUrwgdQ9RSN0jarsjxBrP9UU2nvZGGWfHh7Ia+Z0I2BUcukdZVRb05hZ18PPEZDZ7iFrrgHth2UP/p1SvKEUuc41dG5QFSPG1dRfXeu8Lbg8RJVm8FrZFiRrqxXTYvAfNVl0PEK7F5xY4V0ctRDcU3Q46m2SJhOSy9ZFve8rJIIEJWThNmGSdb3PiIF7l63mX1fcEoE2ee61OGFlQ8YOVBYoaDgIS5e55dPsnJK0k7VvzKSiKLSWpzKCgxpwuTeqtsNyM47u1qBvEHYOv+Bmgjvl17LLwDtGnwyf8ABK6yx7ifZPRU7PSQCKOxaeKdTD929IaEUQ8QpQ+qaiA6X60YD61R7yIQW08a+W/WZE9T4UqoDwFSfAABYzi7TgAyEM8xqFHswFRnSE37wc+pXawKC+mmVrhqnJ2Jtk1QYBaaP9cHn2ByhevId1060jVqqciCaK8B5gIzd22rCqyVJ0njBTd6cQcBFZQrXM2G5llr6LL7skU+7VpkHZuLeEwXcvSx0FWGBqmSPnikrfDWPggCa0g8wKNh9vyRtV2pwcBU63cSn09szGfpJnlF4VEZ3zDgx1YZ8JqEoA5dRbMkKRYomCzjT9wR0SgQbQrYSFSFCd+cYDId8TWmYInaaSnZ7hfjCf5ugUD+CGINsrwLA2x5z3T0VcP5Ljt1OVqlBR5x9w8j2MPWiGIyQXf2mX04GWtpnUuZAjL1Q6MGFivPVHmRwoOGyOlNIucWyOL6aADn6EtG77CQylbmEVPcNec6BDnLXwGPeylr9i6RrWE261FncMTU8OuZcSSULv+X9wCCjq8pvD8Bj6zyhbTKFwFHLRTdxANtWVdNQb9hwhyAC5NxLb+t+xfVXEKkmMxYcsmJM9fh62JZ560lYLZ3IXr3o6LEJgnnpDW3lsS86w7bSC8posoCo0pCnuHtKZ7ngvOnuWgrgrVnHhEU2gL5D9aOYb/mGOon6n35R0oDrXlm+AOpKK3fVcT4T5Wq7Lnc3siNIBpxWrKTNYdyL0sjzJ7pk+Zyfa8n8ZSVh5Zm80jTJu5cHHDsESkqhHA5Sa+ek68MOIkvBnfyi3p2LDLY/77SrJxirO4OXMR1u1F7C6nviKwhbY7s0RCDh6VamB7m0YvKKSms76HDiEzXp3YJh7R6OsJF/D9qK9VkNnHTLVa5RGjSAJTOHoKvvgaVJ0HEHCKG5V68XcYlV0TowE8jq/jQQHhc6nwt6MYj6ZKKp6RuqB259A/vNpBJp+RKRzu4Bn1ic4l6q3Qo6S9OXGEKAo1UwD/GWoplKCh2l07XBx+hzIKrocHfeFTTC+J5oIg72Q4JOODlBoe0f5qUp6LRXotmE0ze9+Bsrng4O6Zj2WoqupDhIAkS917C2eOX4yzcJFNUk5Dm8YNARjhemNMNlpxDqq6ZjN7hURaenUjioKqt1kvoSVCkoJHFPvRn1PqJsZyFWd9sz1fG08qTflY7uBLP33ur67uQ7zzML0O8earQ63Fz+4M+rapR2OMIYVHlCyg+eAjTQ834dlYlcRve6lDeTQa5L+cOQDYelACDcpaMb2Fo6wrkBr4Tnlj43l03wvKQBUqBAShZf30tUEn+CcGT0y9RELXrG/W+kq0qAQneLY+3Go5hVlxtqIGj3YRZ4dBT8PTSSAwanZQlLwquOPsRwpz/IMzWoRZWsPNS0e68g59to9wShHgTGkB0GUVMThTJwCJQonMYyFGExQHV/mZ5WWMM30UV6tmnsDjgGUZ5oRGONh3BrLo7tQ9piLidQN2oJSMZiUEYBJM5qu/CpQPZ7nMH9MH48PlDGu3tq710E4cYGTYnypnLw6ztJDMl1ekzoeBvhwa4NtbNioKo3EPBspm1Wtv4HVLnBWspFNGoAyvTU4rL+HM98IU9DDaRRIYDI98a0MIWcU4hzaJAO79kEp0KIC1L/+rkn1tOhPYUnZnBD8dd3e6n6O0nf2pfvZHQ1jnSRyXVSw5R1xG04vroYheCntx5sMSFOTXcqhar/MorkkgiiMUuh9PnfRjtJ0Bun/20+fe1k3Sj9uoJTKkfBU3+BLvLBw2Qu6Z39K+mgUlD5XybOqP3fACp/nECiRgsO/JNoMWJw4B9FWs82y/8Orf+7YFuNoJn7D6SC/gF0s99VY/U/+pfR/wN7PbgCQRMfsgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wNy0wM1QxOTo1NjozNC0wNTowMEpwJfIAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDctMDNUMTk6NTY6MzQtMDU6MDA7LZ1OAAAAAElFTkSuQmCC",
+          "width": "f8856e27-b030-4894-a8a5-3c646a084461:number:2.5",
+          "height": "763371c2-9e3d-44a8-9854-c778fb2ca5ec:number:1.48",
+          "unit": "c6821f8e-4cd9-4589-87f9-784a0234bc3e:string:CM"
+        },
+        "TRUSTEES": {
+          "data": "e33adbc2-1d14-43f2-9da0-f707640cef44:string:data:image/png;base64,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",
+          "width": "72e60d37-eedb-46f2-b4fa-401713eeaea9:number:5.31",
+          "height": "edb11c04-cad9-4a2c-8fe8-88fd81505c47:number:1.15",
+          "unit": "4cee6bcb-c97e-49d6-a880-7758106eb643:string:CM"
+        }
+      },
+      "transcriptType": "ba1741c2-2a8e-4c23-bfaf-c9896866c74c:string:UGOF",
+      "transcriptReq": "8d4aa0f9-a329-4d43-b431-8c515df79d48:string:001289693",
+      "transcriptGroup": [
+        {
+          "name": "41ffab71-cdc8-4c3e-bd92-cf9e1d2cfb19:string:1410",
+          "term": "e7ec98d6-a610-4060-9620-c46bcf8f9219:string:2014/2015 Semester 1",
+          "formOfStudy": "a122faa8-4250-4ce2-9311-ba6ca7dcca8a:string:ENRL",
+          "fosPrintArea": "091a9471-9fab-44fd-ae45-a20d1e9ad6c1:string:ND",
+          "summary": [
+            {
+              "programName": "44a0b7b2-923d-408b-9d51-a8c78e874e86:string:Bachelor of Laws",
+              "includeInGPA": "e0012fab-1ef4-41cf-94e6-a5deb88d5e8a:boolean:false"
+            }
+          ],
+          "reportNo": "dd969009-d9f2-4e6d-9f56-e76c7d08ef98:number:1"
+        },
+        {
+          "name": "c365a574-e072-487b-b744-ceac78b08462:string:1420",
+          "term": "f293781d-bdb9-4004-b8d1-38d835e0f975:string:2014/2015 Semester 2",
+          "formOfStudy": "9516f5af-b451-4ead-95ff-96a854c6ad5d:string:ENRL",
+          "fosPrintArea": "1076d53a-0f6b-41ae-a54c-d38e360e053c:string:ND",
+          "summary": [
+            {
+              "programName": "6d1dec03-cd88-449a-aece-f4253b7926c4:string:Bachelor of Laws",
+              "includeInGPA": "f3746370-003e-482d-9546-a4e46e1cf991:boolean:false",
+              "awards": [
+                {
+                  "awardCode": "94b85ab4-92fd-45b0-a526-45aa6dac8627:string:DEANL",
+                  "awardName": "7b02dc3e-f7e4-4eaf-9074-6c7f321747a8:string:Dean's List"
+                }
+              ]
+            }
+          ],
+          "reportNo": "94d311b2-0549-4f34-a54c-3ffea3bda738:number:1"
+        },
+        {
+          "name": "1a69be00-d14c-4edf-8e27-ff1f9a2d9bc4:string:1510",
+          "term": "0aac7868-c724-4425-ace5-bd21ca556f0c:string:2015/2016 Semester 1",
+          "formOfStudy": "e6afa8d8-3465-48e0-a7d5-462de19a1b2e:string:ENRL",
+          "fosPrintArea": "9d4cbdd8-7057-4996-8c9f-a0a706c0aae3:string:ND",
+          "summary": [
+            {
+              "programName": "8f82484c-66d5-4870-a77b-05c495f72fd0:string:Bachelor of Laws",
+              "includeInGPA": "24bb0949-5bd3-4562-9e39-4ab63765ea60:boolean:false"
+            }
+          ],
+          "reportNo": "fe127157-b325-4336-8f83-f5a33c97b3ef:number:1"
+        },
+        {
+          "name": "0203d7b2-a322-4c62-9ec4-10b3f2de6f79:string:1520",
+          "term": "d9a56e44-31bd-4d23-8386-a50399696fe8:string:2015/2016 Semester 2",
+          "formOfStudy": "1a249b7b-bd35-4f0a-9ed8-850fc1eebd2c:string:ENRL",
+          "fosPrintArea": "ef4f6386-3846-4fac-a5d1-3745a63959f3:string:ND",
+          "summary": [
+            {
+              "programName": "dff46d08-4eae-4a63-a40b-f03018589c59:string:Bachelor of Laws",
+              "includeInGPA": "65a04ecd-64cb-43dc-a93e-e590b899db5b:boolean:false",
+              "awards": [
+                {
+                  "awardCode": "36c02713-f5dc-45e2-880d-bba42e12fe09:string:DEANL",
+                  "awardName": "81af0415-e416-41bb-9bb9-d713637b07ed:string:Dean's List"
+                }
+              ]
+            }
+          ],
+          "reportNo": "210545c6-13ac-4319-8e4d-8cd87fab9503:number:1"
+        },
+        {
+          "name": "34bfb4a8-fbce-4dfc-94dd-4e193d07ab39:string:1610",
+          "term": "b574f1b3-9045-4e1a-bca4-af246a7266ee:string:2016/2017 Semester 1",
+          "formOfStudy": "214c9a44-d2f5-4275-b02a-4588d75d52b7:string:ENRL",
+          "fosPrintArea": "f9b579d8-ebda-4dc6-9649-4be07332caaa:string:ND",
+          "summary": [
+            {
+              "programName": "a84e8e10-dd94-40e0-8fc4-edea10341d4d:string:Bachelor of Laws",
+              "includeInGPA": "b5868280-750b-4fff-ad96-376c5b45a44c:boolean:false"
+            }
+          ],
+          "reportNo": "0529e373-48de-4e17-855b-d523a0dd6ba4:number:1"
+        },
+        {
+          "name": "ddebdcf8-161d-469b-b163-ee2f23c543fd:string:1620",
+          "term": "a8ba6e76-e0e8-488a-9c76-63603103d04c:string:2016/2017 Semester 2",
+          "formOfStudy": "a504a924-7614-456a-bc96-9ccdf93b1723:string:ENRL",
+          "fosPrintArea": "ff1ca08f-0f5c-4979-84ae-52dcdd548051:string:ND",
+          "summary": [
+            {
+              "programName": "fbfa3ce1-a100-44a7-8aeb-cadad3bda9df:string:Bachelor of Laws",
+              "includeInGPA": "c7d6ee20-1ba7-4e5d-838b-0cff2138e6fa:boolean:false",
+              "awards": [
+                {
+                  "awardCode": "cc7a7d72-401f-405c-94dd-edb596e711d4:string:DEANL",
+                  "awardName": "64b77d9d-8b79-4162-a1bb-efdf93c29e2c:string:Dean's List"
+                }
+              ]
+            }
+          ],
+          "reportNo": "7d69f3cd-d1fb-41ee-8f9c-9c71b07abac3:number:1"
+        },
+        {
+          "name": "ac867d42-e225-43df-b90b-8571a1ca4cab:string:1710",
+          "term": "4ca4ade0-61a5-4312-a575-93d494ada08d:string:2017/2018 Semester 1",
+          "formOfStudy": "6f7b9581-1d3a-42dd-8609-2d9113a7280e:string:ENRL",
+          "fosPrintArea": "84cb5f1c-be74-4d78-a629-8038e7dad232:string:ND",
+          "summary": [
+            {
+              "programName": "ad51e66a-cf79-4ddb-80d7-68c5b9e487f7:string:Bachelor of Laws",
+              "includeInGPA": "b87ff65a-62e8-40c4-a697-0125c5c0c772:boolean:false"
+            }
+          ],
+          "reportNo": "3ac57872-247e-4e5c-9c5a-159815943007:number:1"
+        },
+        {
+          "name": "04d911c1-a4be-4fc6-864f-c9a36b2e6a23:string:1720",
+          "term": "5997617d-823c-40ca-ae61-9e42ec6a28d5:string:2017/2018 Semester 2",
+          "formOfStudy": "b61c7c1c-6028-4e9f-8c0b-59c3d0873b6d:string:ENRL",
+          "fosPrintArea": "7a35986e-4dc9-48a7-b046-f4848581f6a8:string:ND",
+          "summary": [
+            {
+              "programName": "0d056115-371c-4246-9c68-2752fcc85aa6:string:Bachelor of Laws",
+              "includeInGPA": "cf259a92-a26b-458f-82f1-331668ee7d67:boolean:false",
+              "awards": [
+                {
+                  "awardCode": "f30e1419-4ae0-47dd-b235-9af31cf2d5b2:string:DEANLO",
+                  "awardName": "716b7204-73fd-4801-912f-2c00f40c969d:string:Dean's List (Overall)"
+                },
+                {
+                  "awardCode": "240a8498-2bc7-4b3c-b705-eaf318820a3d:string:DEANL",
+                  "awardName": "5c66e146-0244-440f-9424-c8186e2edc05:string:Dean's List"
+                }
+              ]
+            }
+          ],
+          "reportNo": "b9706c88-e8f5-406d-a77f-109da384e04b:number:1"
+        }
+      ],
+      "programData": [
+        {
+          "programCode": "29878e20-f4c7-4260-855a-e018531e20d9:string:B0711",
+          "programName": "01dfab5f-e11c-4d60-9aed-c0f31033f52c:string:Bachelor of Laws",
+          "statusCode": "a64abe51-0e5d-4691-abb1-44fe6f0f7d92:string:CM",
+          "statusDescription": "e1c24cf0-bcd3-40a0-8a58-fde9d3889db6:string:Completed Programme",
+          "effectiveDate": "52c3d035-673b-43b1-bc44-103ce8a75355:string:2018-06-24",
+          "admitTerm": "233167e6-8682-41fb-b61a-0e0f64993262:string:1410",
+          "reportNo": "301cf4ff-ed07-4c3a-9373-e2c4e5b9e355:number:1"
+        }
+      ],
+      "degreeData": [
+        {
+          "degreeTitle": "9331d39b-9be2-43fa-b7c9-198a2a570355:string:Bachelor of Laws",
+          "dateConferred": "12910e96-7944-410f-8f19-b9a83de705d5:string:2018-06-30",
+          "honours": "02dcc192-1b0a-4f99-971e-9264d8becff8:string:1st Class Honours",
+          "reportNo": "809c26c8-a801-46cb-83b5-35385a7215e6:number:1"
+        }
+      ],
+      "awardData": [
+        {
+          "year": "8c5d449e-f275-4dcc-bb83-a851c2fe1d0e:string:Academic Year 2015",
+          "name": "1859970a-cdd8-43e4-9af3-88e8877661b6:string:Lai Kew Chai Prize in Equity & Trusts",
+          "basis": "90406f1e-225b-4eab-b131-6e3595d3b8cc:string:Best Law student in the module  Equity and Trusts",
+          "reportNo": "4ba29d25-185c-45d9-a5d7-be5dd143c795:number:1"
+        },
+        {
+          "year": "1398ed94-cb05-4782-8b8f-c8838eb2d491:string:Academic Year 2017",
+          "name": "44b94b74-813a-4d61-84eb-d43e9f5865b9:string:Clifford Chance Prize in International Commercial Arbitration",
+          "basis": "2c9b855c-39db-4a1c-ac2f-812de8f92f4e:string:Student who has attained the highest marks in the module \"International Commercial Arbitration\"",
+          "reportNo": "87a2b53a-03df-435e-b588-8f9abe0715ea:number:1"
+        }
+      ],
+      "uniqueId": "33c79979-8ed5-4243-a804-a6eebfbb282f:string:NUS-A0131812U-B071000-P12809674-202-20180630"
+    }
+  },
+  "privacy": {},
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "ac536583835fdb3499171a3cdf1367b26744024bf202263cc59b8a1ed7cf498f",
+    "proof": [
+      "373cc90c6eb0f7875a06f89b6bfc332ac1c81de92933cd717fe51f70d011994a",
+      "c60efc11c9806f08866fc720787204efae1b4bb7421ddac5e1fa4d216293ac5e",
+      "f5354134422632b6e494d754debadea86129a779bbf18202dc74c71f3a06349d",
+      "af0057906fc3cf4e62b61a8a2ad3c110505d6091f5a685edd41fdcc6fd2ae0b4",
+      "26a4ca2f30cee902688404b261a0ab77285ee6c04812d968a7279a3e23d71c0e",
+      "e770fe09d2fd52d3dd32a94f57c5f14089752aa14dc88e1ad491eb5d44e76918",
+      "dfaa49323a8a6576d3b5edd5e881676a72608168a5cf23bdced4f3244c1c409c",
+      "855c16f5ac13fdba575fe6ed01f31742931b766c38891d729b10ff2b6dff34f3",
+      "8afb8ff9f54de8c84681b629eca3eb9deafa4022a08d0a14dda6cc15bbe1b724",
+      "ed35d25fef6843bcdd64d218341e7dc904b113e1ab7409348b0f29ee05426aff",
+      "a53654ed1b9518df9d273ce24eff44a280eb96a9f5b641e77ee200a70378dad4",
+      "20989d70023f9521bf9f59242608e46979a2c2f85bf96e2cbddd6297ba530a13"
+    ],
+    "merkleRoot": "05b8c122b77566af411dc861b809531862c427fdab9063387ef27042d39b8d17"
+  }
+}
